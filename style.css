@@ -193,6 +193,15 @@
   color: #2f2d2d;
 }
 
+@media screen and (max-width: 500px) {
+  #footer .footer {
+    width: 90%;
+  }
+  #footer .footer .footer_logo {
+    width: 150px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -366,6 +375,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 800px) {
+  #page_container .main_wrapper .banner {
+    height: 200px;
+  }
   #page_container .main_wrapper .banner .informacion {
     width: 50%;
   }
@@ -733,6 +745,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 500px) {
+  #page_container #contacto_wrapper {
+    min-height: 100vh;
+  }
+  #page_container #contacto_wrapper .contacto {
+    height: 300px;
+  }
   #page_container #contacto_wrapper .contacto .mapa {
     display: none;
   }
