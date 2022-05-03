@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 #navbar {
   position: fixed;
   width: 100%;
@@ -318,6 +319,146 @@ body::-webkit-scrollbar-thumb {
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
   font-size: 6em;
+}
+
+#page_container #servicios_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FEF6ED;
+}
+
+#page_container #servicios_wrapper .servicios {
+  width: 80%;
+  min-height: 900px;
+}
+
+#page_container #servicios_wrapper .servicios h1 {
+  padding-top: 25px;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 3em;
+  color: #2f2d2d;
+}
+
+#page_container #servicios_wrapper .servicios .descripcion_servicios {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #servicios_wrapper .servicios .descripcion_servicios p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 100%;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+}
+
+#page_container #servicios_wrapper .servicios .descripcion_servicios .imagen {
+  width: 40%;
+  height: 100%;
+  border: 2px solid red;
+}
+
+#page_container #servicios_wrapper .servicios .descripcion_servicios .imagen img {
+  display: none;
+}
+
+#page_container .penta_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin: 50px 0 50px 0;
+  background-color: #2f2d2d;
+}
+
+#page_container .penta_container .penta {
+  width: 80%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #FEF6ED;
+}
+
+#page_container .penta_container .penta .descripcion_penta {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container .penta_container .penta .descripcion_penta h2 {
+  font-family: "Lexend Tera", sans-serif;
+}
+
+#page_container .penta_container .penta .descripcion_penta p {
+  font-family: "Lexend Tera", sans-serif;
+  font-size: .8em;
+}
+
+#page_container .penta_container .penta .descripcion_penta a {
+  font-family: "Lexend Tera", sans-serif;
+  margin-top: 10px;
+  color: #2f2d2d;
+}
+
+#page_container .penta_container .penta .logo_penta {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #page_container #contacto_wrapper {
