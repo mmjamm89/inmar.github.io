@@ -27,39 +27,64 @@ $padding-bottom: 100px;
         align-items: center;
         justify-content: center;
         background-color: $color-2;
+
+        .titulo_servicios {            
+            padding-top: 50px;
+            width: 80%;
+            text-align: center;
+            font-family: $font-1;
+            font-size: 5em;
+            color: $color-1;
+        }
         .servicios {
             width: 80%;
-            min-height: 900px;
-            h1 {
-                padding-top: 25px;
-                font-family: $font-1;
-                font-size: 3em;
-                color: $color-1;                
-            }
+            min-height: 400px;
+            margin-top: 75px;
+            margin-bottom: 20px;            
             .descripcion_servicios {
                 width: 100%;
-                height: 300px;
+                height: 400px;
                 display: flex;
                 align-items: center;
-                justify-content: center;                
-                p {
+                justify-content: space-between;
+                .text {
+                    width: 45%;
+                    height: 100%;                    
+                    display: flex;
+                    flex-direction: column;
+                    padding: 50px 0 50px 0;
+                    p {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        color: $color-1;
+                        font-family: $font-1;
+                    }
+                    h1 {
+                        // padding-top: 25px;
+                        font-family: $font-1;
+                        font-size: 3em;
+                        color: $color-1;                
+                    }
+                }
+                
+                .imagen {
+                    width: 50%;
+                    height: 100%;
                     display: flex;
                     align-items: center;
-                    width: 60%;
-                    height: 100%;
-                    color: $color-1;
-                    font-family: $font-1;
-                }
-                .imagen {
-                    width: 40%;
-                    height: 100%;
-                    border: 2px solid red;
+                    justify-content: flex-end;
+                    overflow: hidden;                    
+                    border-radius: 10px;
                     img {
-                        display: none;
+                        width: 100%;
                     }
                 }
             }
-
+        }
+        #insumos {
+            padding-bottom: 50px;
         }
     }
     .penta_container {         
@@ -68,7 +93,7 @@ $padding-bottom: 100px;
         justify-content: center;
         width: 100%;
         height: 300px;
-        margin: 50px 0 50px 0;
+        margin: 0px 0 25px 0;
         background-color: $color-1;
         .penta {
             width: 80%;
@@ -103,6 +128,47 @@ $padding-bottom: 100px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    #page_container {
+        #servicios_wrapper {
+            
+            .servicios {
+                width: 90%;                
+                h1 {
+                    
+                }
+                .descripcion_servicios {
+                    
+                    p {
+                        
+                    }
+                    .imagen {
+                        
+                        img {
+                            
+                        }
+                    }
+                }
+    
+            }
+        }
+        .penta_container {                     
+            .penta {                
+                .descripcion_penta {                    
+                    h2 {                        
+                    }
+                    p {                        
+                    }
+                    a {                        
+                    }
+                }
+                .logo_penta {
+                }
             }
         }
     }

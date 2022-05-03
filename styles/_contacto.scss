@@ -26,6 +26,7 @@ $padding-bottom: 100px;
         align-items: center;
         justify-content: center;
         background-color: $color-1;
+        min-height: 1000px;
         .contacto {
             width: 80%;
             height: 500px;
@@ -38,9 +39,19 @@ $padding-bottom: 100px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-family: $font-1;
-                font-size: 4em;
-                color: $color-1;
+                .mapouter {
+                    width: 100%;
+                    height: 100%;
+                    .gmap_canvas {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px 0 0 10px;
+                        iframe {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }                
             }
             .datos_contacto {
                 height: 100%;
@@ -67,4 +78,170 @@ $padding-bottom: 100px;
         }
     }
     
+}
+
+@media screen and (max-width: 1580px) {
+    #page_container {
+        #contacto_wrapper {            
+            .contacto {
+                width: 90%;                
+                .mapa {                    
+                    .mapouter {                        
+                        .gmap_canvas {                            
+                            iframe {                                
+                            }
+                        }
+                    }                
+                }
+                .datos_contacto {                    
+                    .redes_sociales {
+                        a {
+                            i{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1355px) {
+    #page_container {
+        #contacto_wrapper {            
+            .contacto {                         
+                .mapa {                    
+                    .mapouter {                        
+                        .gmap_canvas {                            
+                            iframe {                                
+                            }
+                        }
+                    }                
+                }
+                .datos_contacto {
+                    font-size: .8em;
+                    .redes_sociales {
+                        a {
+                            i{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    #page_container {
+        #contacto_wrapper {            
+            .contacto {                         
+                .mapa {                    
+                    .mapouter {                        
+                        .gmap_canvas {                            
+                            iframe {                                
+                            }
+                        }
+                    }                
+                }
+                .datos_contacto {
+                    font-size: .6em;
+                    .redes_sociales {
+                        a {
+                            i{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    #page_container {
+        #contacto_wrapper {            
+            .contacto {                         
+                .mapa {
+                    display: none;
+                    .mapouter {                        
+                        .gmap_canvas {                            
+                            iframe {                                
+                            }
+                        }
+                    }                
+                }
+                .datos_contacto {
+                    border-radius: 10px;
+                    width: 100%;
+                    font-size: 1em;
+                    .redes_sociales {
+                        a {
+                            i{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #page_container {
+        #contacto_wrapper {            
+            .contacto {                         
+                .mapa {
+                    display: none;
+                    .mapouter {                        
+                        .gmap_canvas {                            
+                            iframe {                                
+                            }
+                        }
+                    }                
+                }
+                .datos_contacto {
+                    font-size: .6em;
+                    .redes_sociales {
+                        a {
+                            i{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media screen and (max-width: 500px) {
+    #page_container {
+        #contacto_wrapper {            
+            .contacto {                         
+                .mapa {
+                    display: none;
+                    .mapouter {                        
+                        .gmap_canvas {                            
+                            iframe {                                
+                            }
+                        }
+                    }                
+                }
+                .datos_contacto {
+                    font-size: .4em;
+                    .redes_sociales {
+                        a {
+                            i{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
 }

@@ -46,11 +46,38 @@ $padding-bottom: 100px;
             justify-content: space-between;
             li {
                 list-style: none;
+                transition: .2s;
+                &:hover {
+                    font-size: 3em;
+                }
                 a {
                     text-decoration: none;
                     color: $color-1;
                     text-transform: uppercase;
                     font-family: $font-1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    #navbar {        
+        .navbar {        
+            width: 90%;
+            .logo {
+                
+            }
+            .nav_links {
+                
+                li {
+                    
+                    &:hover {
+                        font-size: 2em;
+                    }
+                    a {
+
+                    }
                 }
             }
         }
