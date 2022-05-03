@@ -440,6 +440,41 @@ body::-webkit-scrollbar-thumb {
   font-size: 6em;
 }
 
+@media screen and (max-width: 1580px) {
+  #page_container #productos_wrapper .productos {
+    width: 90%;
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  #page_container #productos_wrapper .productos {
+    width: 90%;
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  #page_container #productos_wrapper .productos {
+    width: 90%;
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #page_container #productos_wrapper .productos {
+    width: 90%;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #page_container #productos_wrapper .productos {
+    width: 90%;
+    font-size: 1em;
+  }
+}
+
 #page_container #servicios_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
