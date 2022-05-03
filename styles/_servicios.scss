@@ -33,7 +33,7 @@ $padding-bottom: 100px;
             width: 80%;
             text-align: center;
             font-family: $font-1;
-            font-size: 5em;
+            font-size: 4em;
             color: $color-1;
         }
         .servicios {
@@ -62,7 +62,6 @@ $padding-bottom: 100px;
                         font-family: $font-1;
                     }
                     h1 {
-                        // padding-top: 25px;
                         font-family: $font-1;
                         font-size: 3em;
                         color: $color-1;                
@@ -87,7 +86,7 @@ $padding-bottom: 100px;
             padding-bottom: 50px;
         }
     }
-    .penta_container {         
+    .penta_container {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -99,6 +98,7 @@ $padding-bottom: 100px;
             width: 80%;
             height: 200px;
             display: flex;
+            justify-content: space-between;
             padding: 10px;
             border-radius: 10px;
             background-color: $color-2;
@@ -127,49 +127,317 @@ $padding-bottom: 100px;
                 height: 100%;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-end;
             }
         }
     }
 }
 
-@media screen and (max-width: 1580px) {
+@media screen and (max-width: 1760px) {
     #page_container {
         #servicios_wrapper {
-            
+            .titulo_servicios {
+            }
             .servicios {
-                width: 90%;                
-                h1 {
-                    
-                }
                 .descripcion_servicios {
-                    
-                    p {
-                        
+                    .text {
+                        p {
+                        }
+                        h1 {
+                            font-size: 2.5em;
+                        }
                     }
+                    
                     .imagen {
-                        
                         img {
-                            
                         }
                     }
                 }
-    
+            }
+            #insumos {
             }
         }
-        .penta_container {                     
+        .penta_container {
             .penta {                
-                .descripcion_penta {                    
+                .descripcion_penta {
                     h2 {                        
                     }
-                    p {                        
+                    p {                    
                     }
                     a {                        
                     }
                 }
                 .logo_penta {
+
                 }
             }
         }
     }
-}
+    
+} 
+
+@media screen and (max-width: 1580px) {
+    #page_container {
+        #servicios_wrapper {
+            .titulo_servicios {
+                width: 90%;
+            }
+            .servicios {
+                width: 90%;
+                margin-top: 10px;
+                .descripcion_servicios {
+                    .text {
+                        p {
+                        }
+                        h1 {
+                            font-size: 2.5em;
+                        }
+                    }
+                    
+                    .imagen {
+                        img {
+                        }
+                    }
+                }
+            }
+            #insumos {
+            }
+        }
+        .penta_container {
+            .penta {                
+                .descripcion_penta {
+                    h2 {                        
+                    }
+                    p {                    
+                    }
+                    a {                        
+                    }
+                }
+                .logo_penta {
+
+                }
+            }
+        }
+    }
+    
+} 
+
+@media screen and (max-width: 1240px) {
+    #page_container {
+        #servicios_wrapper {
+            .titulo_servicios {                
+            }
+            .servicios {
+                margin-top: 0;
+                .descripcion_servicios {
+                    .text {
+                        p {
+                        }
+                        h1 {
+                            font-size: 2em;
+                        }
+                    }
+                    
+                    .imagen {
+                        img {
+                        }
+                    }
+                }
+            }
+            #insumos {
+            }
+        }
+        .penta_container {
+            .penta {                
+                .descripcion_penta {
+                    h2 {                        
+                    }
+                    p {                    
+                    }
+                    a {                        
+                    }
+                }
+                .logo_penta {
+
+                }
+            }
+        }
+    }
+    
+} 
+
+@media screen and (max-width: 1200px) {
+    #page_container {
+        #servicios_wrapper {
+            .titulo_servicios {
+                font-size: 4em;                
+            }
+            .servicios {
+                margin-top: 0;
+                .descripcion_servicios {
+                    flex-direction: column;
+                    height: 700px;
+                    .text {
+                        width: 90%;
+                        height: 55%;
+                        padding: 50px 0 5px 0;
+                        justify-content: space-around;
+                        p {
+                            height: 60%;
+                        }
+                        h1 {
+                            font-size: 2.5em;
+                        }
+                    }
+                    
+                    .imagen {
+                        width: 100%;
+                        justify-content: center;
+                        img {
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+            #insumos {
+            }
+        }
+        .penta_container {
+            .penta {                
+                .descripcion_penta {
+                    h2 {                        
+                    }
+                    p {                    
+                    }
+                    a {                        
+                    }
+                }
+                .logo_penta {
+
+                }
+            }
+        }
+    }
+    
+} 
+
+@media screen and (max-width: 900px) {
+    #page_container {
+        #servicios_wrapper {
+            .titulo_servicios {
+                font-size: 4em;                
+            }
+            .servicios {
+                margin-top: 0;
+                .descripcion_servicios {
+                    flex-direction: column;
+                    height: 700px;
+                    .text {
+                        width: 90%;
+                        height: 55%;
+                        padding: 50px 0 5px 0;
+                        justify-content: space-around;
+                        p {
+                            height: 60%;
+                        }
+                        h1 {
+                            font-size: 2.5em;
+                        }
+                    }
+                    
+                    .imagen {
+                        width: 100%;
+                        justify-content: center;
+                        img {
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+            #insumos {
+            }
+        }
+        .penta_container {
+            .penta {                
+                .descripcion_penta {
+                    width: 60%;
+                    h2 {
+                        font-size: 1.2em;                        
+                    }
+                    p {
+                        font-size: .6em;                    
+                    }
+                    a {                        
+                    }
+                }
+                .logo_penta {
+
+                }
+            }
+        }
+    }
+    
+} 
+
+@media screen and (max-width: 750px) {
+    #page_container {
+        #servicios_wrapper {
+            .titulo_servicios {
+                padding-top: 20px;
+                font-size: 1.7em;                
+            }
+            .servicios {
+                margin-top: 0;
+                margin-bottom: 0;
+                .descripcion_servicios {
+                    flex-direction: column;
+                    height: 400px;
+                    .text {
+                        width: 90%;
+                        height: 50%;
+                        padding: 25px 0 5px 0;
+                        justify-content: space-around;
+                        p {
+                            height: 70%;
+                            font-size: .8em;
+                        }
+                        h1 {
+                            font-size: 1.2em;
+                        }
+                    }
+                    
+                    .imagen {
+                        width: 100%;
+                        height: 50%;
+                        justify-content: center;
+                        img {
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+            #insumos {
+            }
+        }
+        .penta_container {
+            margin: 0;
+            .penta {                
+                .descripcion_penta {
+                    width: 60%;
+                    h2 {
+                        font-size: 1em;                        
+                    }
+                    p {
+                        font-size: .5em;                    
+                    }
+                    a {                        
+                    }
+                }
+                .logo_penta {
+
+                }
+            }
+        }
+    }
+    
+} 

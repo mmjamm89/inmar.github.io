@@ -21,11 +21,13 @@ $padding-bottom: 100px;
 //STYLES
 
 #page_container {
+    min-height: 100vh;
     #productos_wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: $color-2;
+        min-height: 100vh;
         .productos {
             height: 500px;            
             display: flex;
@@ -86,7 +88,7 @@ $padding-bottom: 100px;
         #productos_wrapper {
             .productos {
                 width: 90%;
-                font-size: 1em;
+                font-size: 1.5em;
             }
         }
     }
