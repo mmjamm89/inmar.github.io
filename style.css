@@ -79,6 +79,52 @@
   }
 }
 
+@media screen and (max-width: 1120px) {
+  #navbar .navbar {
+    width: 90%;
+  }
+  #navbar .navbar .nav_links li {
+    font-size: .8em;
+  }
+  #navbar .navbar .nav_links li:hover {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #navbar .navbar {
+    width: 90%;
+  }
+  #navbar .navbar .logo {
+    -webkit-transition: .2s;
+    transition: .2s;
+    display: none;
+  }
+  #navbar .navbar .nav_links {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navbar .navbar {
+    width: 90%;
+  }
+  #navbar .navbar .logo {
+    -webkit-transition: .2s;
+    transition: .2s;
+    display: none;
+  }
+  #navbar .navbar .nav_links {
+    width: 100%;
+  }
+  #navbar .navbar .nav_links li {
+    font-size: .6em;
+  }
+  #navbar .navbar .nav_links li:hover {
+    font-size: 1em;
+  }
+}
+
 #footer {
   border-top: 1px solid #2f2d2d;
   position: absolute;
@@ -205,8 +251,6 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 10em;
 }
 
 #page_container .main_wrapper #servicios {
@@ -304,6 +348,54 @@ body::-webkit-scrollbar-thumb {
 #page_container .main_wrapper .banner .link a #boton_contacto {
   background-color: #FEF6ED;
   color: #2f2d2d;
+}
+
+@media screen and (max-width: 1200px) {
+  #page_container .main_wrapper .banner .informacion {
+    width: 50%;
+  }
+  #page_container .main_wrapper .banner .informacion .titulo {
+    font-size: 2.5em;
+  }
+  #page_container .main_wrapper .banner .informacion .descripcion {
+    font-size: .9em;
+  }
+  #page_container .main_wrapper .banner .link {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #page_container .main_wrapper .banner .informacion {
+    width: 50%;
+  }
+  #page_container .main_wrapper .banner .informacion .titulo {
+    font-size: 2em;
+  }
+  #page_container .main_wrapper .banner .informacion .descripcion {
+    font-size: .8em;
+  }
+  #page_container .main_wrapper .banner .link {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #page_container .main_wrapper .banner .informacion {
+    width: 50%;
+  }
+  #page_container .main_wrapper .banner .informacion .titulo {
+    font-size: 1.2em;
+  }
+  #page_container .main_wrapper .banner .informacion .descripcion {
+    font-size: .5em;
+  }
+  #page_container .main_wrapper .banner .link {
+    width: 40%;
+  }
+  #page_container .main_wrapper .banner .link a .boton {
+    font-size: .9em;
+  }
 }
 
 #page_container #productos_wrapper {

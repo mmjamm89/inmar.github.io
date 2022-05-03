@@ -83,3 +83,72 @@ $padding-bottom: 100px;
         }
     }
 }
+
+@media screen and (max-width: 1120px) {
+    #navbar {        
+        .navbar {        
+            width: 90%;
+            .logo {
+                
+            }
+            .nav_links {
+                
+                li {
+                    font-size: .8em;
+                    &:hover {
+                        font-size: 1.5em;
+                    }
+                    a {
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #navbar {        
+        .navbar {        
+            width: 90%;
+            .logo {
+                transition: .2s;
+                display: none;                
+            }
+            .nav_links {
+                width: 100%;
+                li {                    
+                    &:hover {                        
+                    }
+                    a {
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #navbar {        
+        .navbar {        
+            width: 90%;
+            .logo {
+                transition: .2s;
+                display: none;                
+            }
+            .nav_links {
+                width: 100%;
+                li {
+                    font-size: .6em;                    
+                    &:hover {
+                        font-size: 1em;                        
+                    }
+                    a {
+
+                    }
+                }
+            }
+        }
+    }
+}
