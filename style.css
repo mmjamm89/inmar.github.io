@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 #navbar {
   position: fixed;
   width: 100%;
@@ -287,6 +288,36 @@ body::-webkit-scrollbar-thumb {
 #page_container .main_wrapper .banner .link a #boton_contacto {
   background-color: #FEF6ED;
   color: #2f2d2d;
+}
+
+#page_container #productos_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FEF6ED;
+}
+
+#page_container #productos_wrapper .productos {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  font-size: 6em;
 }
 
 #page_container #contacto_wrapper {
