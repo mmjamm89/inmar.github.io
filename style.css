@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 #navbar {
   position: fixed;
   width: 100%;
@@ -153,7 +154,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #2f2d2d;
 }
 
-#home_container {
+#page_container {
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
@@ -168,14 +169,14 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
 }
 
-#home_container .home_wrapper {
+#page_container .main_wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
   min-height: 900px;
   width: 100%;
 }
 
-#home_container .home_wrapper .slider {
+#page_container .main_wrapper .slider {
   height: 650px;
   width: 100%;
   display: -webkit-box;
@@ -191,22 +192,22 @@ body::-webkit-scrollbar-thumb {
   font-size: 10em;
 }
 
-#home_container .home_wrapper #servicios {
+#page_container .main_wrapper #servicios {
   background-color: #2f2d2d;
   color: #FEF6ED;
 }
 
-#home_container .home_wrapper #productos {
+#page_container .main_wrapper #productos {
   background-color: #FEF6ED;
   color: #2f2d2d;
 }
 
-#home_container .home_wrapper #contacto {
+#page_container .main_wrapper #contacto {
   background-color: #2f2d2d;
   color: #FEF6ED;
 }
 
-#home_container .home_wrapper .banner {
+#page_container .main_wrapper .banner {
   width: 100%;
   height: 250px;
   display: -webkit-box;
@@ -219,7 +220,7 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
 }
 
-#home_container .home_wrapper .banner .informacion {
+#page_container .main_wrapper .banner .informacion {
   height: 80%;
   width: 70%;
   display: -webkit-box;
@@ -234,21 +235,21 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
 }
 
-#home_container .home_wrapper .banner .informacion .titulo {
+#page_container .main_wrapper .banner .informacion .titulo {
   font-family: "Lexend Tera", sans-serif;
   font-size: 3em;
 }
 
-#home_container .home_wrapper .banner .informacion .descripcion {
+#page_container .main_wrapper .banner .informacion .descripcion {
   font-family: "Lexend Tera", sans-serif;
 }
 
-#home_container .home_wrapper .banner .link {
+#page_container .main_wrapper .banner .link {
   height: 50%;
   width: 20%;
 }
 
-#home_container .home_wrapper .banner .link a {
+#page_container .main_wrapper .banner .link a {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -263,7 +264,7 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
 }
 
-#home_container .home_wrapper .banner .link a .boton {
+#page_container .main_wrapper .banner .link a .boton {
   height: 90%;
   width: 90%;
   border-radius: 10px;
@@ -273,18 +274,87 @@ body::-webkit-scrollbar-thumb {
   font-size: 1.2em;
 }
 
-#home_container .home_wrapper .banner .link a #boton_servicios {
+#page_container .main_wrapper .banner .link a #boton_servicios {
   background-color: #FEF6ED;
   color: #2f2d2d;
 }
 
-#home_container .home_wrapper .banner .link a #boton_productos {
+#page_container .main_wrapper .banner .link a #boton_productos {
   background-color: #2f2d2d;
   color: #FEF6ED;
 }
 
-#home_container .home_wrapper .banner .link a #boton_contacto {
+#page_container .main_wrapper .banner .link a #boton_contacto {
   background-color: #FEF6ED;
   color: #2f2d2d;
+}
+
+#page_container #contacto_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2f2d2d;
+}
+
+#page_container #contacto_wrapper .contacto {
+  width: 80%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page_container #contacto_wrapper .contacto .mapa {
+  height: 100%;
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+  background-color: #FEF6ED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 4em;
+  color: #2f2d2d;
+}
+
+#page_container #contacto_wrapper .contacto .datos_contacto {
+  height: 100%;
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FEF6ED;
+}
+
+#page_container #contacto_wrapper .contacto .datos_contacto .redes_sociales a i {
+  color: #2f2d2d;
+  font-size: 2em;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */

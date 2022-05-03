@@ -42,13 +42,13 @@ body {
     }
 }
 
-#home_container {
+#page_container {
     position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    .home_wrapper {
+    .main_wrapper {
         padding-top: $padding-top;
         padding-bottom: $padding-bottom;
         min-height: 900px;
