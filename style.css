@@ -779,7 +779,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.7em;
   }
   #page_container #servicios_wrapper .servicios {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
   }
   #page_container #servicios_wrapper .servicios .descripcion_servicios {
@@ -802,6 +802,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .servicios .descripcion_servicios .text h1 {
     font-size: 1.2em;
+    margin-bottom: 10px;
   }
   #page_container #servicios_wrapper .servicios .descripcion_servicios .imagen {
     width: 100%;
@@ -815,6 +816,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container .penta_container {
     margin: 0;
+    margin-top: 5px;
   }
   #page_container .penta_container .penta .descripcion_penta {
     width: 60%;
