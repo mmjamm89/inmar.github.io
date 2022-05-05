@@ -47,12 +47,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     .main_wrapper {
         padding-top: $padding-top;
         padding-bottom: $padding-bottom;
         min-height: 900px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         .slider {
             height: 650px;
             width: 100%;
