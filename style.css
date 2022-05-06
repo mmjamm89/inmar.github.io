@@ -435,7 +435,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 700px) {
   #page_container .main_wrapper .slider {
-    height: 450px;
+    height: 500px;
   }
   #page_container .main_wrapper .banner {
     height: 200px;
@@ -881,7 +881,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container .penta_container {
     margin: 0;
-    margin-top: 5px;
+    margin-top: 15px;
   }
   #page_container .penta_container .penta .descripcion_penta {
     width: 60%;
