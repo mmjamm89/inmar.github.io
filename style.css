@@ -212,6 +212,7 @@
 body {
   background-color: #FEF6ED;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body::-webkit-scrollbar {
