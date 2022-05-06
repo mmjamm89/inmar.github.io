@@ -48,6 +48,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    .logo_home {
+        display: none;
+    }
     .main_wrapper {
         padding-top: $padding-top;
         padding-bottom: $padding-bottom;
@@ -185,6 +188,67 @@ body {
     }
 }
 
+@media screen and (max-width: 900px) {
+    #page_container {
+        
+        .main_wrapper {
+
+            .logo_home {
+                padding-top: 25px;
+                display: flex;
+                svg {
+                    width: 400px;
+                }
+
+            }
+            
+            .slider {
+                
+            }
+            #servicios {
+                
+            }
+            #productos {
+                
+            }
+            #contacto {
+                
+            }
+            .banner{            
+                
+                .informacion {
+                    width: 50%;
+                    
+                    .titulo {
+                        font-size: 2.5em;
+                    }
+                    .descripcion {
+                        font-size: .9em;
+                    }
+                }
+                .link {
+                    width: 30%;
+                    a {
+                        
+                        .boton {
+                        
+                        }
+                        #boton_servicios {
+                            
+                        }
+                        #boton_productos {
+                            
+                        }
+                        #boton_contacto {
+
+                        }
+                    }
+                }
+            }        
+        }
+    }
+}
+
 @media screen and (max-width: 800px) {
     #page_container {
         
@@ -237,10 +301,69 @@ body {
     }
 }
 
+@media screen and (max-width: 700px) {
+    #page_container {
+        
+        .main_wrapper {
+            
+            .slider {
+                height: 450px;
+            }
+            #servicios {
+                
+            }
+            #productos {
+                
+            }
+            #contacto {
+                
+            }
+            .banner{
+                height: 200px;
+                .informacion {
+                    width: 50%;
+                    
+                    .titulo {
+                        font-size: 2em;
+                    }
+                    .descripcion {
+                        font-size: .8em;
+                    }
+                }
+                .link {
+                    width: 40%;
+                    a {
+                        
+                        .boton {
+                        
+                        }
+                        #boton_servicios {
+                            
+                        }
+                        #boton_productos {
+                            
+                        }
+                        #boton_contacto {
+
+                        }
+                    }
+                }
+            }        
+        }
+    }
+}
+
+
 @media screen and (max-width: 500px) {
     #page_container {
         
         .main_wrapper {
+
+            .logo_home {
+                svg {
+                    width: 300px;
+                }
+            }
             
             .slider {
                 

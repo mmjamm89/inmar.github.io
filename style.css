@@ -241,6 +241,10 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
 }
 
+#page_container .logo_home {
+  display: none;
+}
+
 #page_container .main_wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -387,6 +391,30 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media screen and (max-width: 900px) {
+  #page_container .main_wrapper .logo_home {
+    padding-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #page_container .main_wrapper .logo_home svg {
+    width: 400px;
+  }
+  #page_container .main_wrapper .banner .informacion {
+    width: 50%;
+  }
+  #page_container .main_wrapper .banner .informacion .titulo {
+    font-size: 2.5em;
+  }
+  #page_container .main_wrapper .banner .informacion .descripcion {
+    font-size: .9em;
+  }
+  #page_container .main_wrapper .banner .link {
+    width: 30%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   #page_container .main_wrapper .banner {
     height: 200px;
@@ -405,7 +433,31 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media screen and (max-width: 700px) {
+  #page_container .main_wrapper .slider {
+    height: 450px;
+  }
+  #page_container .main_wrapper .banner {
+    height: 200px;
+  }
+  #page_container .main_wrapper .banner .informacion {
+    width: 50%;
+  }
+  #page_container .main_wrapper .banner .informacion .titulo {
+    font-size: 2em;
+  }
+  #page_container .main_wrapper .banner .informacion .descripcion {
+    font-size: .8em;
+  }
+  #page_container .main_wrapper .banner .link {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 500px) {
+  #page_container .main_wrapper .logo_home svg {
+    width: 300px;
+  }
   #page_container .main_wrapper .banner .informacion {
     width: 50%;
   }
