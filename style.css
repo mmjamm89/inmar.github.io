@@ -359,6 +359,13 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   font-family: "Lexend Tera", sans-serif;
   font-size: 1.2em;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#page_container .main_wrapper .banner .link a .boton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #page_container .main_wrapper .banner .link a #boton_servicios {
@@ -709,6 +716,12 @@ body::-webkit-scrollbar-thumb {
   font-family: "Lexend Tera", sans-serif;
   margin-top: 10px;
   color: #2f2d2d;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#page_container .penta_container .penta .descripcion_penta a:hover {
+  color: #F2922E;
 }
 
 #page_container .penta_container .penta .logo_penta {
@@ -976,6 +989,23 @@ body::-webkit-scrollbar-thumb {
   color: #2f2d2d;
   font-size: 2em;
   margin-right: 20px;
+}
+
+#page_container #contacto_wrapper .contacto .datos_contacto .redes_sociales a .fa-brands {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#page_container #contacto_wrapper .contacto .datos_contacto .redes_sociales a .fa-brands.fa-facebook:hover {
+  color: #4267B2;
+}
+
+#page_container #contacto_wrapper .contacto .datos_contacto .redes_sociales a .fa-brands.fa-instagram:hover {
+  color: #E1306C;
+}
+
+#page_container #contacto_wrapper .contacto .datos_contacto .redes_sociales a .fa-brands.fa-linkedin:hover {
+  color: #0072b1;
 }
 
 @media screen and (max-width: 1580px) {
