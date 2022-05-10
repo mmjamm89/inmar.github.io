@@ -1,8 +1,8 @@
 //VARIABLES
 
 //COLORS
-$color-1: #2f2d2d;
-$color-2: #FEF6ED;
+$color-2: #2f2d2d;
+$color-1: #FEF6ED;
 $color-3: white;
 $color-4: #FEF2D4;
 $color-5: #F2922E;
@@ -23,428 +23,659 @@ $padding-bottom: 100px;
 
 #page_container {
     #servicios_wrapper {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: $color-2;
-
-        .titulo_servicios {            
-            padding-top: 50px;
-            width: 80%;
-            text-align: center;
-            font-family: $font-1;
-            font-size: 4em;
-            color: $color-1;
+        background-color: $color-1;
+        min-height: 100vh;
+        
+        .titulo {
+            height: 250px;
+            width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1 {
+                text-align: center;
+                color: $color-2;
+                font-family: $font-1;
+                text-transform: uppercase;
+                font-size: 3em;
+            }
         }
-        .servicios {
-            width: 80%;
-            min-height: 400px;
-            margin-top: 75px;
-            margin-bottom: 20px;            
-            .descripcion_servicios {
+        .servicio {
+            width: 1200px;
+            height: 300px;
+            border: 2px solid $color-2;
+            margin-top: 10px;
+            h1 {
+                height: 60px;
                 width: 100%;
-                height: 400px;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
-                .text {
-                    width: 45%;
-                    height: 100%;                    
-                    display: flex;
-                    flex-direction: column;
-                    padding: 50px 0 50px 0;
-                    p {
-                        display: flex;
-                        align-items: center;
-                        width: 100%;
-                        height: 100%;
-                        color: $color-1;
-                        font-family: $font-1;
-                    }
-                    h1 {
-                        font-family: $font-1;
-                        font-size: 3em;
-                        color: $color-1;                
-                    }
-                }
-                
-                .imagen {
+                justify-content: center;
+                text-transform: uppercase;
+                color: $color-2;
+                font-family: 'Lexend Tera', sans-serif;
+            }
+            .servicio_descripcion {
+                display: flex;
+                .desc {
                     width: 50%;
-                    height: 100%;
+                    height: 238px;
+                    border-top: 2px solid $color-2;
+                    border-right: 2px solid $color-2;
+                    color: $color-2;
+                    font-family: 'Courier New', Courier, monospace;
                     display: flex;
                     align-items: center;
-                    justify-content: flex-end;
-                    overflow: hidden;                    
-                    border-radius: 10px;
-                    img {
-                        width: 100%;
-                    }
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                .svg {
+                    width: 50%;
+                    height: 240px;
+                    border-top: 2px solid $color-2;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
             }
         }
-        #insumos {
-            padding-bottom: 50px;
-        }
-    }
-    .penta_container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 300px;
-        margin: 0px 0 25px 0;
-        background-color: $color-1;
-        .penta {
-            width: 80%;
-            height: 200px;
+        .proveedores {
+            width: 1200px;
+            height: 150px;
+            border: 2px solid $color-2;
+            border-top: none;
+            margin-bottom: 10px;
             display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            border-radius: 10px;
-            background-color: $color-2;
-            .descripcion_penta {
-                width: 70%;
-                height: 100%;
+            .textos {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
+                height: 100%;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                width: 75%;
+                border-right: none;
+                color: $color-2;
+                .titulo_penta {
+                    font-family: $font-1;
+                }
+                .info_penta {
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            }
+        }
+        #penta {
+            margin-bottom: 50px;
+        }
+        #protex {
+            border-top: none;
+            margin-bottom: 0;
+        }
+        #yeso {
+            margin-bottom: 0;
+        }
+        #puertas {
+            margin-bottom: 0;
+        }
+        #cocina {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1240px) {
+    #page_container {
+        #servicios_wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-1;
+            min-height: 100vh;
+            .titulo {
+                height: 250px;
+                width: 1000px;
+                display: flex;
+                align-items: center;
                 justify-content: center;
-                h2 {
+                h1 {
+                    text-align: center;
+                    color: $color-2;
                     font-family: $font-1;
+                    text-transform: uppercase;
+                    font-size: 3em;
                 }
-                p {
-                    font-family: $font-1;
-                    font-size: .8em;
+            }
+            .servicio {
+                width: 1000px;
+                height: 300px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 60px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
                 }
-                a {
-                    font-family: $font-1;
-                    margin-top: 10px;
-                    color: $color-1;
-                    transition: .3s;
-                    &:hover {
-                        color: $color-5;
+                .servicio_descripcion {
+                    display: flex;
+                    .desc {
+                        width: 50%;
+                        height: 238px;
+                        border-top: 2px solid $color-2;
+                        border-right: 2px solid $color-2;
+                        color: $color-2;
+                        font-family: 'Courier New', Courier, monospace;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                    .svg {
+                        width: 50%;
+                        height: 240px;
+                        border-top: 2px solid $color-2;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
                 }
             }
-            .logo_penta {
-                width: 30%;
-                height: 100%;
+            .proveedores {
+                width: 1000px;
+                height: 150px;
+                border: 2px solid $color-2;
+                border-top: none;
+                margin-bottom: 10px;
                 display: flex;
-                align-items: center;
-                justify-content: flex-end;
+                .textos {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 75%;
+                    color: $color-2;
+                    .titulo_penta {
+                        font-family: $font-1;
+                    }
+                    .info_penta {
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+            }
+            #protex {
+                border-top: none;
+                margin-bottom: 0;
+            }
+            #yeso {
+                margin-bottom: 0;
+            }
+            #puertas {
+                margin-bottom: 0;
+            }
+            #cocina {
+                margin-bottom: 50px;
             }
         }
     }
 }
 
-@media screen and (max-width: 1760px) {
+@media screen and (max-width: 1050px) {
     #page_container {
         #servicios_wrapper {
-            .titulo_servicios {
-            }
-            .servicios {
-                .descripcion_servicios {
-                    .text {
-                        p {
-                        }
-                        h1 {
-                            font-size: 2.5em;
-                        }
-                    }
-                    
-                    .imagen {
-                        img {
-                        }
-                    }
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-1;
+            min-height: 100vh;
+            .titulo {
+                height: 250px;
+                width: 800px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    text-align: center;
+                    color: $color-2;
+                    font-family: $font-1;
+                    text-transform: uppercase;
+                    font-size: 2em;
                 }
             }
-            #insumos {
-            }
-        }
-        .penta_container {
-            .penta {                
-                .descripcion_penta {
-                    h2 {                        
-                    }
-                    p {                    
-                    }
-                    a {                        
-                    }
-                }
-                .logo_penta {
-
-                }
-            }
-        }
-    }
-    
-} 
-
-@media screen and (max-width: 1580px) {
-    #page_container {
-        #servicios_wrapper {
-            .titulo_servicios {
-                width: 90%;
-            }
-            .servicios {
-                width: 90%;
+            .servicio {
+                width: 800px;
+                height: 300px;
+                border: 2px solid $color-2;
                 margin-top: 10px;
-                .descripcion_servicios {
-                    .text {
-                        p {
-                        }
-                        h1 {
-                            font-size: 2.5em;
-                        }
-                    }
-                    
-                    .imagen {
-                        img {
-                        }
-                    }
+                h1 {
+                    height: 60px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
                 }
-            }
-            #insumos {
-            }
-        }
-        .penta_container {
-            .penta {                
-                .descripcion_penta {
-                    h2 {                        
+                .servicio_descripcion {
+                    display: flex;
+                    .desc {
+                        width: 50%;
+                        height: 238px;
+                        border-top: 2px solid $color-2;
+                        border-right: 2px solid $color-2;
+                        color: $color-2;
+                        font-family: 'Courier New', Courier, monospace;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
                     }
-                    p {                    
-                    }
-                    a {                        
-                    }
-                }
-                .logo_penta {
-
-                }
-            }
-        }
-    }
-    
-} 
-
-@media screen and (max-width: 1240px) {
-    #page_container {
-        #servicios_wrapper {
-            .titulo_servicios {                
-            }
-            .servicios {
-                margin-top: 0;
-                .descripcion_servicios {
-                    .text {
-                        p {
-                        }
-                        h1 {
-                            font-size: 2em;
-                        }
-                    }
-                    
-                    .imagen {
-                        img {
-                        }
-                    }
-                }
-            }
-            #insumos {
-            }
-        }
-        .penta_container {
-            .penta {                
-                .descripcion_penta {
-                    h2 {                        
-                    }
-                    p {                    
-                    }
-                    a {                        
-                    }
-                }
-                .logo_penta {
-
-                }
-            }
-        }
-    }
-    
-} 
-
-@media screen and (max-width: 1200px) {
-    #page_container {
-        #servicios_wrapper {
-            .titulo_servicios {
-                font-size: 4em;                
-            }
-            .servicios {
-                margin-top: 0;
-                .descripcion_servicios {
-                    flex-direction: column;
-                    height: 700px;
-                    .text {
-                        width: 90%;
-                        height: 55%;
-                        padding: 50px 0 5px 0;
-                        justify-content: space-around;
-                        p {
-                            height: 60%;
-                        }
-                        h1 {
-                            font-size: 2.5em;
-                        }
-                    }
-                    
-                    .imagen {
-                        width: 100%;
+                    .svg {
+                        width: 50%;
+                        height: 240px;
+                        border-top: 2px solid $color-2;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        display: flex;
+                        align-items: center;
                         justify-content: center;
-                        img {
-                            width: 90%;
-                        }
                     }
                 }
             }
-            #insumos {
-            }
-        }
-        .penta_container {
-            .penta {                
-                .descripcion_penta {
-                    h2 {                        
-                    }
-                    p {                    
-                    }
-                    a {                        
-                    }
-                }
-                .logo_penta {
-
-                }
-            }
-        }
-    }
-    
-} 
-
-@media screen and (max-width: 900px) {
-    #page_container {
-        #servicios_wrapper {
-            .titulo_servicios {
-                font-size: 4em;                
-            }
-            .servicios {
-                margin-top: 0;
-                .descripcion_servicios {
+            .proveedores {
+                width: 800px;
+                height: 150px;
+                border: 2px solid $color-2;
+                border-top: none;
+                margin-bottom: 10px;
+                display: flex;
+                .textos {
+                    display: flex;
                     flex-direction: column;
-                    height: 700px;
-                    .text {
-                        width: 90%;
-                        height: 55%;
-                        padding: 50px 0 5px 0;
-                        justify-content: space-around;
-                        p {
-                            height: 60%;
-                        }
-                        h1 {
-                            font-size: 2.5em;
-                        }
+                    height: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 75%;
+                    color: $color-2;
+                    .titulo_penta {
+                        font-family: $font-1;
                     }
-                    
-                    .imagen {
-                        width: 100%;
-                        justify-content: center;
-                        img {
-                            width: 90%;
-                        }
+                    .info_penta {
+                        font-family: 'Courier New', Courier, monospace;
                     }
                 }
             }
-            #insumos {
-            }
-        }
-        .penta_container {
-            .penta {                
-                .descripcion_penta {
-                    width: 60%;
-                    h2 {
-                        font-size: 1.2em;                        
-                    }
-                    p {
-                        font-size: .6em;                    
-                    }
-                    a {                        
-                    }
-                }
-                .logo_penta {
 
-                }
-            }
-        }
-    }
-    
-} 
-
-@media screen and (max-width: 750px) {
-    #page_container {
-        #servicios_wrapper {
-            .titulo_servicios {
-                padding-top: 20px;
-                font-size: 1.7em;                
-            }
-            .servicios {
-                margin-top: 0px;
+            #protex {
+                border-top: none;
                 margin-bottom: 0;
-                .descripcion_servicios {
-                    flex-direction: column;
-                    height: 400px;
-                    .text {
-                        width: 90%;
-                        height: 50%;
-                        padding: 25px 0 5px 0;
-                        justify-content: space-around;
-                        p {
-                            height: 70%;
-                            font-size: .8em;                            
-                        }
-                        h1 {
-                            font-size: 1.2em;
-                            margin-bottom: 10px;
-                        }
-                    }
-                    
-                    .imagen {
-                        width: 100%;
-                        height: 50%;
-                        justify-content: center;
-                        img {
-                            width: 90%;
-                        }
-                    }
-                }
             }
-            #insumos {
+            #yeso {
+                margin-bottom: 0;
             }
-        }
-        .penta_container {
-            margin: 0;
-            margin-top: 15px;
-            .penta {                
-                .descripcion_penta {
-                    width: 60%;
-                    h2 {
-                        font-size: 1em;                        
-                    }
-                    p {
-                        font-size: .5em;                    
-                    }
-                    a {                        
-                    }
-                }
-                .logo_penta {
-
-                }
+            #puertas {
+                margin-bottom: 0;
+            }
+            #cocina {
+                margin-bottom: 50px;
             }
         }
     }
-    
-} 
+}
+
+@media screen and (max-width: 850px) {
+    #page_container {
+        #servicios_wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-1;
+            min-height: 100vh;
+            .titulo {
+                height: 150px;
+                width: 600px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    text-align: center;
+                    color: $color-2;
+                    font-family: $font-1;
+                    text-transform: uppercase;
+                    font-size: 2em;
+                }
+            }
+            .servicio {
+                width: 600px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                    font-size: 1.5em;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 80%;
+                    .desc {
+                        width: 50%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: 2px solid $color-2;
+                        color: $color-2;
+                        font-family: 'Courier New', Courier, monospace;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        font-size: .8em;
+                    }
+                    .svg {
+                        width: 50%;
+                        height: 240px;
+                        border-top: 2px solid $color-2;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+            .proveedores {
+                width: 600px;
+                height: 120px;
+                border: 2px solid $color-2;
+                border-top: none;
+                margin-bottom: 10px;
+                display: flex;
+                .textos {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 75%;
+                    color: $color-2;
+                    .titulo_penta {
+                        font-family: $font-1;
+                        font-size: 1.3em;
+                    }
+                    .info_penta {
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: .7em;
+                    }
+                }
+            }
+            #protex {
+                border-top: none;
+                margin-bottom: 0;
+            }
+            #yeso {
+                margin-bottom: 0;
+            }
+            #puertas {
+                margin-bottom: 0;
+            }
+            #cocina {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #page_container {
+        #servicios_wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-1;
+            min-height: 100vh;
+            .titulo {
+                height: 150px;
+                width: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    text-align: center;
+                    color: $color-2;
+                    font-family: $font-1;
+                    text-transform: uppercase;
+                    font-size: 1.8em;
+                }
+            }
+            .servicio {
+                width: 500px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                    font-size: 1.5em;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 70%;
+                    .desc {
+                        width: 100%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: none;
+                        color: $color-2;
+                        font-family: 'Courier New', Courier, monospace;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        font-size: .8em;
+                    }
+                    .svg {
+                        width: 50%;
+                        height: 240px;
+                        border-top: 2px solid $color-2;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        display: none;
+                    }
+                }
+            }
+            .proveedores {
+                width: 500px;
+                height: 120px;
+                border: 2px solid $color-2;
+                border-top: none;
+                margin-bottom: 10px;
+                display: flex;
+                .textos {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 75%;
+                    color: $color-2;
+                    .titulo_penta {
+                        font-family: $font-1;
+                        font-size: 1.2em;
+                    }
+                    .info_penta {
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: .6em;
+                    }
+                }
+            }
+            #protex {
+                border-top: none;
+                margin-bottom: 0;
+            }
+            #yeso {
+                margin-bottom: 0;
+            }
+            #puertas {
+                margin-bottom: 0;
+            }
+            #cocina {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #page_container {
+        #servicios_wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-1;
+            min-height: 100vh;
+            .titulo {
+                height: 150px;
+                width: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    text-align: center;
+                    color: $color-2;
+                    font-family: $font-1;
+                    text-transform: uppercase;
+                    font-size: 1.8em;
+                }
+            }
+            .servicio {
+                width: 400px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                    font-size: 1.5em;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 70%;
+                    .desc {
+                        width: 100%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: none;
+                        color: $color-2;
+                        font-family: 'Courier New', Courier, monospace;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        font-size: .8em;
+                    }
+                    .svg {
+                        width: 50%;
+                        height: 240px;
+                        border-top: 2px solid $color-2;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        display: none;
+                    }
+                }
+            }
+            .proveedores {
+                width: 400px;
+                height: 150px;
+                border: 2px solid $color-2;
+                border-top: none;
+                margin-bottom: 10px;
+                display: flex;
+                .textos {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;                    
+                    height: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 60%;
+                    color: $color-2;
+                    .titulo_penta {
+                        font-family: $font-1;
+                        font-size: .7em;
+                    }
+                    .info_penta {
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: .5em;
+                    }
+                }
+            }
+            #protex {
+                border-top: none;
+                margin-bottom: 0;
+            }
+            #yeso {
+                margin-bottom: 0;
+            }
+            #puertas {
+                margin-bottom: 0;
+            }
+            #cocina {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
