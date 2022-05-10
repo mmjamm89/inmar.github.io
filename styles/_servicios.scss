@@ -11,6 +11,12 @@ $color-5: #F2922E;
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
 $font-1: 'Lexend Tera', sans-serif;
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+$font-2: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+$font-3: 'PT Sans', sans-serif;
+
 //FONT SIZE
 
 //PADDING
@@ -30,7 +36,6 @@ $padding-bottom: 100px;
         justify-content: center;
         background-color: $color-1;
         min-height: 100vh;
-        
         .titulo {
             height: 250px;
             width: 1200px;
@@ -51,7 +56,7 @@ $padding-bottom: 100px;
             border: 2px solid $color-2;
             margin-top: 10px;
             h1 {
-                height: 60px;
+                height: 20%;
                 width: 100%;
                 display: flex;
                 align-items: center;
@@ -62,13 +67,14 @@ $padding-bottom: 100px;
             }
             .servicio_descripcion {
                 display: flex;
+                height: 80%;
                 .desc {
                     width: 50%;
-                    height: 238px;
+                    height: 100%;
                     border-top: 2px solid $color-2;
                     border-right: 2px solid $color-2;
                     color: $color-2;
-                    font-family: 'Courier New', Courier, monospace;
+                    font-family: $font-3;
                     display: flex;
                     align-items: center;
                     padding-left: 5px;
@@ -76,13 +82,60 @@ $padding-bottom: 100px;
                 }
                 .svg {
                     width: 50%;
-                    height: 240px;
+                    height: 100%;
                     border-top: 2px solid $color-2;
-                    padding-left: 5px;
-                    padding-right: 5px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    .svg_container {
+                        width: 90%;
+                        height: 90%;
+                        overflow: hidden;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        svg {
+                            width: 350px;
+                        }
+                        #carro {
+                            width: 1px;
+                        }
+                    }
+                }
+            }
+        }
+        #servicio_2 {
+            width: 1200px;
+            height: 350px;
+            border: 2px solid $color-2;
+            margin-top: 10px;
+            h1 {
+                height: 20%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+                color: $color-2;
+                font-family: 'Lexend Tera', sans-serif;
+            }
+            .servicio_descripcion {
+                display: flex;
+                height: 80%;
+                .desc {
+                    width: 100%;
+                    height: 100%;
+                    border-top: 2px solid $color-2;
+                    border-right: none;
+                    color: $color-2;
+                    font-family: $font-3;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    .servicio_2_desc {
+                        font-size: 2em;
+                    }
                 }
             }
         }
@@ -108,7 +161,13 @@ $padding-bottom: 100px;
                     font-family: $font-1;
                 }
                 .info_penta {
-                    font-family: 'Courier New', Courier, monospace;
+                    font-family: $font-3;
+                }
+                a {
+                    font-family: $font-3;
+                    color: $color-2;
+                    text-decoration: none;
+                    margin-top: 5px;
                 }
             }
         }
@@ -150,8 +209,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-2;
-                    font-family: $font-1;
+                    color: $color-2;                    
                     text-transform: uppercase;
                     font-size: 3em;
                 }
@@ -179,7 +237,6 @@ $padding-bottom: 100px;
                         border-top: 2px solid $color-2;
                         border-right: 2px solid $color-2;
                         color: $color-2;
-                        font-family: 'Courier New', Courier, monospace;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -194,6 +251,41 @@ $padding-bottom: 100px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                    }
+                }
+            }
+            #servicio_2 {
+                width: 1000px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 80%;
+                    .desc {
+                        width: 100%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: none;
+                        color: $color-2;
+                        font-family: $font-3;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        .servicio_2_desc {
+                            font-size: 1.5em;
+                        }
                     }
                 }
             }
@@ -215,10 +307,8 @@ $padding-bottom: 100px;
                     width: 75%;
                     color: $color-2;
                     .titulo_penta {
-                        font-family: $font-1;
                     }
                     .info_penta {
-                        font-family: 'Courier New', Courier, monospace;
                     }
                 }
             }
@@ -258,7 +348,6 @@ $padding-bottom: 100px;
                 h1 {
                     text-align: center;
                     color: $color-2;
-                    font-family: $font-1;
                     text-transform: uppercase;
                     font-size: 2em;
                 }
@@ -276,7 +365,6 @@ $padding-bottom: 100px;
                     justify-content: center;
                     text-transform: uppercase;
                     color: $color-2;
-                    font-family: 'Lexend Tera', sans-serif;
                 }
                 .servicio_descripcion {
                     display: flex;
@@ -286,7 +374,6 @@ $padding-bottom: 100px;
                         border-top: 2px solid $color-2;
                         border-right: 2px solid $color-2;
                         color: $color-2;
-                        font-family: 'Courier New', Courier, monospace;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -301,6 +388,38 @@ $padding-bottom: 100px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                    }
+                }
+            }
+            #servicio_2 {
+                width: 800px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 80%;
+                    .desc {
+                        width: 100%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: none;
+                        color: $color-2;
+                        font-family: $font-3;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
                     }
                 }
             }
@@ -322,10 +441,8 @@ $padding-bottom: 100px;
                     width: 75%;
                     color: $color-2;
                     .titulo_penta {
-                        font-family: $font-1;
                     }
                     .info_penta {
-                        font-family: 'Courier New', Courier, monospace;
                     }
                 }
             }
@@ -366,7 +483,6 @@ $padding-bottom: 100px;
                 h1 {
                     text-align: center;
                     color: $color-2;
-                    font-family: $font-1;
                     text-transform: uppercase;
                     font-size: 2em;
                 }
@@ -384,7 +500,6 @@ $padding-bottom: 100px;
                     justify-content: center;
                     text-transform: uppercase;
                     color: $color-2;
-                    font-family: 'Lexend Tera', sans-serif;
                     font-size: 1.5em;
                 }
                 .servicio_descripcion {
@@ -396,7 +511,6 @@ $padding-bottom: 100px;
                         border-top: 2px solid $color-2;
                         border-right: 2px solid $color-2;
                         color: $color-2;
-                        font-family: 'Courier New', Courier, monospace;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -405,13 +519,59 @@ $padding-bottom: 100px;
                     }
                     .svg {
                         width: 50%;
-                        height: 240px;
+                        height: 100%;
                         border-top: 2px solid $color-2;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        .svg_container {
+                            width: 90%;
+                            height: 90%;
+                            overflow: hidden;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg {
+                                width: 250px;
+                            }
+                            #carro {
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+            #servicio_2 {
+                width: 600px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 80%;
+                    .desc {
+                        width: 100%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: none;
+                        color: $color-2;
+                        font-family: $font-3;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
                     }
                 }
             }
@@ -433,11 +593,9 @@ $padding-bottom: 100px;
                     width: 75%;
                     color: $color-2;
                     .titulo_penta {
-                        font-family: $font-1;
                         font-size: 1.3em;
                     }
                     .info_penta {
-                        font-family: 'Courier New', Courier, monospace;
                         font-size: .7em;
                     }
                 }
@@ -469,6 +627,7 @@ $padding-bottom: 100px;
             justify-content: center;
             background-color: $color-1;
             min-height: 100vh;
+            
             .titulo {
                 height: 150px;
                 width: 500px;
@@ -478,7 +637,6 @@ $padding-bottom: 100px;
                 h1 {
                     text-align: center;
                     color: $color-2;
-                    font-family: $font-1;
                     text-transform: uppercase;
                     font-size: 1.8em;
                 }
@@ -496,7 +654,6 @@ $padding-bottom: 100px;
                     justify-content: center;
                     text-transform: uppercase;
                     color: $color-2;
-                    font-family: 'Lexend Tera', sans-serif;
                     font-size: 1.5em;
                 }
                 .servicio_descripcion {
@@ -508,12 +665,11 @@ $padding-bottom: 100px;
                         border-top: 2px solid $color-2;
                         border-right: none;
                         color: $color-2;
-                        font-family: 'Courier New', Courier, monospace;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
                         padding-right: 5px;
-                        font-size: .8em;
+                        font-size: 1em;
                     }
                     .svg {
                         width: 50%;
@@ -525,9 +681,44 @@ $padding-bottom: 100px;
                     }
                 }
             }
+            #servicio_2 {
+                width: 500px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 80%;
+                    .desc {
+                        width: 100%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: none;
+                        color: $color-2;
+                        font-family: $font-3;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        .servicio_2_desc {
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
             .proveedores {
                 width: 500px;
-                height: 120px;
+                height: 150px;
                 border: 2px solid $color-2;
                 border-top: none;
                 margin-bottom: 10px;
@@ -543,12 +734,10 @@ $padding-bottom: 100px;
                     width: 75%;
                     color: $color-2;
                     .titulo_penta {
-                        font-family: $font-1;
                         font-size: 1.2em;
                     }
                     .info_penta {
-                        font-family: 'Courier New', Courier, monospace;
-                        font-size: .6em;
+                        font-size: .8em;
                     }
                 }
             }
@@ -588,7 +777,6 @@ $padding-bottom: 100px;
                 h1 {
                     text-align: center;
                     color: $color-2;
-                    font-family: $font-1;
                     text-transform: uppercase;
                     font-size: 1.8em;
                 }
@@ -606,7 +794,6 @@ $padding-bottom: 100px;
                     justify-content: center;
                     text-transform: uppercase;
                     color: $color-2;
-                    font-family: 'Lexend Tera', sans-serif;
                     font-size: 1.5em;
                 }
                 .servicio_descripcion {
@@ -618,7 +805,6 @@ $padding-bottom: 100px;
                         border-top: 2px solid $color-2;
                         border-right: none;
                         color: $color-2;
-                        font-family: 'Courier New', Courier, monospace;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -626,12 +812,44 @@ $padding-bottom: 100px;
                         font-size: .8em;
                     }
                     .svg {
-                        width: 50%;
+                        width: 30%;
                         height: 240px;
                         border-top: 2px solid $color-2;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: none;
+                    }
+                }
+            }
+            #servicio_2 {
+                width: 400px;
+                height: 200px;
+                border: 2px solid $color-2;
+                margin-top: 10px;
+                h1 {
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    color: $color-2;
+                    font-family: 'Lexend Tera', sans-serif;
+                }
+                .servicio_descripcion {
+                    display: flex;
+                    height: 80%;
+                    .desc {
+                        width: 100%;
+                        height: 100%;
+                        border-top: 2px solid $color-2;
+                        border-right: none;
+                        color: $color-2;
+                        font-family: $font-3;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 5px;
+                        padding-right: 5px;
                     }
                 }
             }
@@ -651,15 +869,19 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    width: 60%;
+                    width: 70%;
                     color: $color-2;
                     .titulo_penta {
-                        font-family: $font-1;
-                        font-size: .7em;
+                        font-size: .9em;
                     }
                     .info_penta {
-                        font-family: 'Courier New', Courier, monospace;
-                        font-size: .5em;
+                        font-size: .7em;
+                    }
+                    a {
+                        font-family: $font-3;
+                        color: $color-2;
+                        text-decoration: none;
+                        margin-top: 5px;
                     }
                 }
             }

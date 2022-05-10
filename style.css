@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 #navbar {
   position: fixed;
@@ -601,7 +603,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper .servicio h1 {
-  height: 60px;
+  height: 20%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -621,15 +623,16 @@ body::-webkit-scrollbar-thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 80%;
 }
 
 #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
   width: 50%;
-  height: 238px;
+  height: 100%;
   border-top: 2px solid #2f2d2d;
   border-right: 2px solid #2f2d2d;
   color: #2f2d2d;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "PT Sans", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -642,10 +645,8 @@ body::-webkit-scrollbar-thumb {
 
 #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
   width: 50%;
-  height: 240px;
+  height: 100%;
   border-top: 2px solid #2f2d2d;
-  padding-left: 5px;
-  padding-right: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -655,6 +656,81 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container {
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container svg {
+  width: 350px;
+}
+
+#page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container #carro {
+  width: 1px;
+}
+
+#page_container #servicios_wrapper #servicio_2 {
+  width: 1200px;
+  height: 350px;
+  border: 2px solid #2f2d2d;
+  margin-top: 10px;
+}
+
+#page_container #servicios_wrapper #servicio_2 h1 {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  color: #2f2d2d;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+#page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80%;
+}
+
+#page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #2f2d2d;
+  border-right: none;
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
+  font-size: 2em;
 }
 
 #page_container #servicios_wrapper .proveedores {
@@ -691,7 +767,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper .proveedores .textos .info_penta {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "PT Sans", sans-serif;
+}
+
+#page_container #servicios_wrapper .proveedores .textos a {
+  font-family: "PT Sans", sans-serif;
+  color: #2f2d2d;
+  text-decoration: none;
+  margin-top: 5px;
 }
 
 #page_container #servicios_wrapper #penta {
@@ -750,7 +833,6 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
     color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
     text-transform: uppercase;
     font-size: 3em;
   }
@@ -787,7 +869,6 @@ body::-webkit-scrollbar-thumb {
     border-top: 2px solid #2f2d2d;
     border-right: 2px solid #2f2d2d;
     color: #2f2d2d;
-    font-family: 'Courier New', Courier, monospace;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -812,6 +893,53 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  #page_container #servicios_wrapper #servicio_2 {
+    width: 1000px;
+    height: 200px;
+    border: 2px solid #2f2d2d;
+    margin-top: 10px;
+  }
+  #page_container #servicios_wrapper #servicio_2 h1 {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+    color: #2f2d2d;
+    font-family: 'Lexend Tera', sans-serif;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #2f2d2d;
+    border-right: none;
+    color: #2f2d2d;
+    font-family: "PT Sans", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
+    font-size: 1.5em;
   }
   #page_container #servicios_wrapper .proveedores {
     width: 1000px;
@@ -838,12 +966,6 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 20px;
     width: 75%;
     color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: 'Courier New', Courier, monospace;
   }
   #page_container #servicios_wrapper #protex {
     border-top: none;
@@ -895,7 +1017,6 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
     color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
     text-transform: uppercase;
     font-size: 2em;
   }
@@ -919,7 +1040,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
     text-transform: uppercase;
     color: #2f2d2d;
-    font-family: 'Lexend Tera', sans-serif;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
     display: -webkit-box;
@@ -932,7 +1052,6 @@ body::-webkit-scrollbar-thumb {
     border-top: 2px solid #2f2d2d;
     border-right: 2px solid #2f2d2d;
     color: #2f2d2d;
-    font-family: 'Courier New', Courier, monospace;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -957,6 +1076,50 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  #page_container #servicios_wrapper #servicio_2 {
+    width: 800px;
+    height: 200px;
+    border: 2px solid #2f2d2d;
+    margin-top: 10px;
+  }
+  #page_container #servicios_wrapper #servicio_2 h1 {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+    color: #2f2d2d;
+    font-family: 'Lexend Tera', sans-serif;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #2f2d2d;
+    border-right: none;
+    color: #2f2d2d;
+    font-family: "PT Sans", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   #page_container #servicios_wrapper .proveedores {
     width: 800px;
@@ -983,12 +1146,6 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 20px;
     width: 75%;
     color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: 'Courier New', Courier, monospace;
   }
   #page_container #servicios_wrapper #protex {
     border-top: none;
@@ -1040,7 +1197,6 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
     color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
     text-transform: uppercase;
     font-size: 2em;
   }
@@ -1064,7 +1220,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
     text-transform: uppercase;
     color: #2f2d2d;
-    font-family: 'Lexend Tera', sans-serif;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -1079,7 +1234,6 @@ body::-webkit-scrollbar-thumb {
     border-top: 2px solid #2f2d2d;
     border-right: 2px solid #2f2d2d;
     color: #2f2d2d;
-    font-family: 'Courier New', Courier, monospace;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1092,7 +1246,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 50%;
-    height: 240px;
+    height: 100%;
     border-top: 2px solid #2f2d2d;
     padding-left: 5px;
     padding-right: 5px;
@@ -1105,6 +1259,70 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  #page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container {
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container svg {
+    width: 250px;
+  }
+  #page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container #carro {
+    width: 200px;
+  }
+  #page_container #servicios_wrapper #servicio_2 {
+    width: 600px;
+    height: 200px;
+    border: 2px solid #2f2d2d;
+    margin-top: 10px;
+  }
+  #page_container #servicios_wrapper #servicio_2 h1 {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+    color: #2f2d2d;
+    font-family: 'Lexend Tera', sans-serif;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #2f2d2d;
+    border-right: none;
+    color: #2f2d2d;
+    font-family: "PT Sans", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   #page_container #servicios_wrapper .proveedores {
     width: 600px;
@@ -1133,11 +1351,9 @@ body::-webkit-scrollbar-thumb {
     color: #2f2d2d;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
     font-size: 1.3em;
   }
   #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: 'Courier New', Courier, monospace;
     font-size: .7em;
   }
   #page_container #servicios_wrapper #protex {
@@ -1190,7 +1406,6 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
     color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
     text-transform: uppercase;
     font-size: 1.8em;
   }
@@ -1214,7 +1429,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
     text-transform: uppercase;
     color: #2f2d2d;
-    font-family: 'Lexend Tera', sans-serif;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -1229,7 +1443,6 @@ body::-webkit-scrollbar-thumb {
     border-top: 2px solid #2f2d2d;
     border-right: none;
     color: #2f2d2d;
-    font-family: 'Courier New', Courier, monospace;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1238,7 +1451,7 @@ body::-webkit-scrollbar-thumb {
             align-items: center;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: .8em;
+    font-size: 1em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 50%;
@@ -1248,9 +1461,56 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     display: none;
   }
+  #page_container #servicios_wrapper #servicio_2 {
+    width: 500px;
+    height: 200px;
+    border: 2px solid #2f2d2d;
+    margin-top: 10px;
+  }
+  #page_container #servicios_wrapper #servicio_2 h1 {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+    color: #2f2d2d;
+    font-family: 'Lexend Tera', sans-serif;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #2f2d2d;
+    border-right: none;
+    color: #2f2d2d;
+    font-family: "PT Sans", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
+    font-size: 1.2em;
+  }
   #page_container #servicios_wrapper .proveedores {
     width: 500px;
-    height: 120px;
+    height: 150px;
     border: 2px solid #2f2d2d;
     border-top: none;
     margin-bottom: 10px;
@@ -1275,12 +1535,10 @@ body::-webkit-scrollbar-thumb {
     color: #2f2d2d;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
     font-size: 1.2em;
   }
   #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: .6em;
+    font-size: .8em;
   }
   #page_container #servicios_wrapper #protex {
     border-top: none;
@@ -1332,7 +1590,6 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
     color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
     text-transform: uppercase;
     font-size: 1.8em;
   }
@@ -1356,7 +1613,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
     text-transform: uppercase;
     color: #2f2d2d;
-    font-family: 'Lexend Tera', sans-serif;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -1371,7 +1627,6 @@ body::-webkit-scrollbar-thumb {
     border-top: 2px solid #2f2d2d;
     border-right: none;
     color: #2f2d2d;
-    font-family: 'Courier New', Courier, monospace;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1383,12 +1638,56 @@ body::-webkit-scrollbar-thumb {
     font-size: .8em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
-    width: 50%;
+    width: 30%;
     height: 240px;
     border-top: 2px solid #2f2d2d;
     padding-left: 5px;
     padding-right: 5px;
     display: none;
+  }
+  #page_container #servicios_wrapper #servicio_2 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #2f2d2d;
+    margin-top: 10px;
+  }
+  #page_container #servicios_wrapper #servicio_2 h1 {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+    color: #2f2d2d;
+    font-family: 'Lexend Tera', sans-serif;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #2f2d2d;
+    border-right: none;
+    color: #2f2d2d;
+    font-family: "PT Sans", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   #page_container #servicios_wrapper .proveedores {
     width: 400px;
@@ -1416,16 +1715,20 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 60%;
+    width: 70%;
     color: #2f2d2d;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
-    font-size: .7em;
+    font-size: .9em;
   }
   #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: .5em;
+    font-size: .7em;
+  }
+  #page_container #servicios_wrapper .proveedores .textos a {
+    font-family: "PT Sans", sans-serif;
+    color: #2f2d2d;
+    text-decoration: none;
+    margin-top: 5px;
   }
   #page_container #servicios_wrapper #protex {
     border-top: none;
