@@ -45,8 +45,7 @@ $padding-bottom: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-bottom: 2px solid $color-2;
-            margin-bottom: 25px;
+            margin-bottom: 10px;
             h1 {
                 text-align: center;
                 color: $color-2;
@@ -155,6 +154,8 @@ $padding-bottom: 100px;
             .textos {
                 display: flex;
                 flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
                 height: 100%;
                 padding-left: 5px;
                 padding-right: 5px;
@@ -176,6 +177,19 @@ $padding-bottom: 100px;
                     margin-top: 5px;
                 }
             }
+            .logo_penta {
+                width: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                #logo_penta {
+                    width: 200px;
+                }
+                #logo_protex {
+                    width: 200px;
+                }            
+            }
+            
         }
         #penta {
             margin-bottom: 50px;
@@ -183,15 +197,31 @@ $padding-bottom: 100px;
         #protex {
             border-top: none;
             margin-bottom: 0;
+            .textos {
+                align-items: flex-start;
+                justify-content: center;
+            }
+        }
+        #mobiline {
+            margin-bottom: 0;
+            .textos {
+                align-items: flex-start;
+                justify-content: center;
+            }
+        }
+        #carpincruz {
+            margin-bottom: 0;
+            .textos {
+                align-items: flex-start;
+                justify-content: center;
+            }
         }
         #yeso {
-            margin-bottom: 0;
-        }
-        #puertas {
-            margin-bottom: 0;
-        }
-        #cocina {
             margin-bottom: 50px;
+            .textos {
+                align-items: flex-start;
+                justify-content: center;
+            }
         }
     }
 }
@@ -325,13 +355,13 @@ $padding-bottom: 100px;
                 border-top: none;
                 margin-bottom: 0;
             }
+            #mobiline {
+                margin-bottom: 0;
+            }
+            #carpincruz {
+                margin-bottom: 0;
+            }
             #yeso {
-                margin-bottom: 0;
-            }
-            #puertas {
-                margin-bottom: 0;
-            }
-            #cocina {
                 margin-bottom: 50px;
             }
         }
@@ -447,11 +477,17 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    width: 75%;
+                    width: 60%;
                     color: $color-2;
                     .titulo_penta {
                     }
                     .info_penta {
+                    }
+                }
+                .logo_penta {
+                    width: 40%;
+                    #logo_penta {
+                        
                     }
                 }
             }
@@ -459,15 +495,39 @@ $padding-bottom: 100px;
             #protex {
                 border-top: none;
                 margin-bottom: 0;
+                .textos {
+                    width: 60%;
+                }
+                .logo_penta {
+                    width: 40%;
+                }
+            }
+            #mobiline {
+                margin-bottom: 0;
+                .textos {
+                    width: 60%;
+                }
+                .logo_penta {
+                    width: 40%;
+                }
+            }
+            #carpincruz {
+                margin-bottom: 0;
+                .textos {
+                    width: 60%;
+                }
+                .logo_penta {
+                    width: 40%;
+                }
             }
             #yeso {
-                margin-bottom: 0;
-            }
-            #puertas {
-                margin-bottom: 0;
-            }
-            #cocina {
                 margin-bottom: 50px;
+                .textos {
+                    width: 60%;
+                }
+                .logo_penta {
+                    width: 40%;
+                }
             }
         }
     }
@@ -599,7 +659,6 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    width: 75%;
                     color: $color-2;
                     .titulo_penta {
                         font-size: 1em;
@@ -613,13 +672,13 @@ $padding-bottom: 100px;
                 border-top: none;
                 margin-bottom: 0;
             }
+            #mobiline {
+                margin-bottom: 0;
+            }
+            #carpincruz {
+                margin-bottom: 0;
+            }
             #yeso {
-                margin-bottom: 0;
-            }
-            #puertas {
-                margin-bottom: 0;
-            }
-            #cocina {
                 margin-bottom: 50px;
             }
         }
@@ -636,7 +695,6 @@ $padding-bottom: 100px;
             justify-content: center;
             background-color: $color-1;
             min-height: 100vh;
-            
             .titulo {
                 height: 150px;
                 width: 500px;
@@ -720,7 +778,7 @@ $padding-bottom: 100px;
                         padding-left: 5px;
                         padding-right: 5px;
                         .servicio_2_desc {
-                            font-size: 1.2em;
+                            font-size: 1em;
                         }
                     }
                 }
@@ -740,28 +798,54 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    width: 75%;
                     color: $color-2;
                     .titulo_penta {
-                        font-size: 1.2em;
+                        font-size: .9em;
                     }
                     .info_penta {
                         font-size: .8em;
                     }
                 }
+                .logo_penta {
+                    width: 50%;
+                }
             }
             #protex {
                 border-top: none;
                 margin-bottom: 0;
+                .textos {
+                    width: 50%;
+                }
+                .logo_penta {
+                    width: 50%;
+                }
+            }
+            #mobiline {
+                margin-bottom: 0;
+                .textos {
+                    width: 50%;
+                }
+                .logo_penta {
+                    width: 50%;
+                }
+            }
+            #carpincruz {
+                margin-bottom: 0;
+                .textos {
+                    width: 50%;
+                }
+                .logo_penta {
+                    width: 50%;
+                }
             }
             #yeso {
-                margin-bottom: 0;
-            }
-            #puertas {
-                margin-bottom: 0;
-            }
-            #cocina {
                 margin-bottom: 50px;
+                .textos {
+                    width: 50%;
+                }
+                .logo_penta {
+                    width: 50%;
+                }
             }
         }
     }
@@ -878,13 +962,12 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    width: 70%;
                     color: $color-2;
                     .titulo_penta {
-                        font-size: .9em;
+                        font-size: .6em;
                     }
                     .info_penta {
-                        font-size: .7em;
+                        font-size: .5em;
                     }
                     a {
                         font-family: $font-3;
@@ -893,19 +976,46 @@ $padding-bottom: 100px;
                         margin-top: 5px;
                     }
                 }
+                .logo_penta {
+                    img {
+                        transform: scale(.8);
+                    }
+                }
             }
             #protex {
                 border-top: none;
                 margin-bottom: 0;
+                .textos {                    
+                }
+                .logo_penta{
+                    img {
+                        transform: scale(.8);
+                    }
+                }
+            }
+            #mobiline {
+                margin-bottom: 0;
+                .logo_penta{
+                    img {
+                        transform: scale(.8);
+                    }
+                }
+            }
+            #carpincruz {
+                margin-bottom: 0;
+                .logo_penta{
+                    img {
+                        transform: scale(.8);
+                    }
+                }
             }
             #yeso {
-                margin-bottom: 0;
-            }
-            #puertas {
-                margin-bottom: 0;
-            }
-            #cocina {
                 margin-bottom: 50px;
+                .logo_penta{
+                    img {
+                        transform: scale(.8);
+                    }
+                }
             }
         }
     }
@@ -1027,7 +1137,6 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    width: 70%;
                     color: $color-2;
                     .titulo_penta {
                         font-size: .8em;
@@ -1046,15 +1155,27 @@ $padding-bottom: 100px;
             #protex {
                 border-top: none;
                 margin-bottom: 0;
+                .logo_penta {
+                    transform: scale(.7);
+                }
+            }
+            #mobiline {
+                margin-bottom: 0;
+                .logo_penta {
+                    transform: scale(.7);
+                }
+            }
+            #carpincruz {
+                margin-bottom: 0;
+                .logo_penta {
+                    transform: scale(.7);
+                }
             }
             #yeso {
-                margin-bottom: 0;
-            }
-            #puertas {
-                margin-bottom: 0;
-            }
-            #cocina {
                 margin-bottom: 50px;
+                .logo_penta {
+                    transform: scale(.7);
+                }
             }
         }
     }

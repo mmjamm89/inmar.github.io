@@ -586,8 +586,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-bottom: 2px solid #2f2d2d;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 #page_container #servicios_wrapper .titulo h1 {
@@ -756,6 +755,12 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   padding-left: 5px;
   padding-right: 5px;
@@ -781,6 +786,27 @@ body::-webkit-scrollbar-thumb {
   margin-top: 5px;
 }
 
+#page_container #servicios_wrapper .proveedores .logo_penta {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
+  width: 200px;
+}
+
+#page_container #servicios_wrapper .proveedores .logo_penta #logo_protex {
+  width: 200px;
+}
+
 #page_container #servicios_wrapper #penta {
   margin-bottom: 50px;
 }
@@ -790,16 +816,52 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 0;
 }
 
+#page_container #servicios_wrapper #protex .textos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #servicios_wrapper #mobiline {
+  margin-bottom: 0;
+}
+
+#page_container #servicios_wrapper #mobiline .textos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #servicios_wrapper #carpincruz {
+  margin-bottom: 0;
+}
+
+#page_container #servicios_wrapper #carpincruz .textos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #page_container #servicios_wrapper #yeso {
-  margin-bottom: 0;
-}
-
-#page_container #servicios_wrapper #puertas {
-  margin-bottom: 0;
-}
-
-#page_container #servicios_wrapper #cocina {
   margin-bottom: 50px;
+}
+
+#page_container #servicios_wrapper #yeso .textos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 1240px) {
@@ -982,13 +1044,13 @@ body::-webkit-scrollbar-thumb {
     border-top: none;
     margin-bottom: 0;
   }
+  #page_container #servicios_wrapper #mobiline {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #carpincruz {
+    margin-bottom: 0;
+  }
   #page_container #servicios_wrapper #yeso {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #puertas {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #cocina {
     margin-bottom: 50px;
   }
 }
@@ -1155,21 +1217,48 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 75%;
+    width: 60%;
     color: #2f2d2d;
+  }
+  #page_container #servicios_wrapper .proveedores .logo_penta {
+    width: 40%;
   }
   #page_container #servicios_wrapper #protex {
     border-top: none;
     margin-bottom: 0;
   }
+  #page_container #servicios_wrapper #protex .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #protex .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #mobiline {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #mobiline .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #carpincruz {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #carpincruz .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta {
+    width: 40%;
+  }
   #page_container #servicios_wrapper #yeso {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #puertas {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #cocina {
     margin-bottom: 50px;
+  }
+  #page_container #servicios_wrapper #yeso .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta {
+    width: 40%;
   }
 }
 
@@ -1358,7 +1447,6 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 75%;
     color: #2f2d2d;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
@@ -1371,13 +1459,13 @@ body::-webkit-scrollbar-thumb {
     border-top: none;
     margin-bottom: 0;
   }
+  #page_container #servicios_wrapper #mobiline {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #carpincruz {
+    margin-bottom: 0;
+  }
   #page_container #servicios_wrapper #yeso {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #puertas {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #cocina {
     margin-bottom: 50px;
   }
 }
@@ -1517,7 +1605,7 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   #page_container #servicios_wrapper .proveedores {
     width: 500px;
@@ -1542,27 +1630,53 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 75%;
     color: #2f2d2d;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-size: 1.2em;
+    font-size: .9em;
   }
   #page_container #servicios_wrapper .proveedores .textos .info_penta {
     font-size: .8em;
+  }
+  #page_container #servicios_wrapper .proveedores .logo_penta {
+    width: 50%;
   }
   #page_container #servicios_wrapper #protex {
     border-top: none;
     margin-bottom: 0;
   }
+  #page_container #servicios_wrapper #protex .textos {
+    width: 50%;
+  }
+  #page_container #servicios_wrapper #protex .logo_penta {
+    width: 50%;
+  }
+  #page_container #servicios_wrapper #mobiline {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #mobiline .textos {
+    width: 50%;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta {
+    width: 50%;
+  }
+  #page_container #servicios_wrapper #carpincruz {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #carpincruz .textos {
+    width: 50%;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta {
+    width: 50%;
+  }
   #page_container #servicios_wrapper #yeso {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #puertas {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #cocina {
     margin-bottom: 50px;
+  }
+  #page_container #servicios_wrapper #yeso .textos {
+    width: 50%;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta {
+    width: 50%;
   }
 }
 
@@ -1726,14 +1840,13 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 70%;
     color: #2f2d2d;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-size: .9em;
+    font-size: .6em;
   }
   #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-size: .7em;
+    font-size: .5em;
   }
   #page_container #servicios_wrapper .proveedores .textos a {
     font-family: "Prompt", sans-serif;
@@ -1741,18 +1854,38 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
     margin-top: 5px;
   }
+  #page_container #servicios_wrapper .proveedores .logo_penta img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
   #page_container #servicios_wrapper #protex {
     border-top: none;
     margin-bottom: 0;
   }
+  #page_container #servicios_wrapper #protex .logo_penta img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  #page_container #servicios_wrapper #mobiline {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  #page_container #servicios_wrapper #carpincruz {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
   #page_container #servicios_wrapper #yeso {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #puertas {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #cocina {
     margin-bottom: 50px;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
   }
 }
 
@@ -1920,7 +2053,6 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 70%;
     color: #2f2d2d;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
@@ -1939,14 +2071,30 @@ body::-webkit-scrollbar-thumb {
     border-top: none;
     margin-bottom: 0;
   }
+  #page_container #servicios_wrapper #protex .logo_penta {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  #page_container #servicios_wrapper #mobiline {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  #page_container #servicios_wrapper #carpincruz {
+    margin-bottom: 0;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
   #page_container #servicios_wrapper #yeso {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #puertas {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #cocina {
     margin-bottom: 50px;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
   }
 }
 
