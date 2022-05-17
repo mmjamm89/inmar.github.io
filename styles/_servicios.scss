@@ -73,35 +73,19 @@ $padding-bottom: 100px;
                 display: flex;
                 height: 80%;
                 .desc {
-                    width: 50%;
+                    width: 100%;
                     height: 100%;
                     border-top: 2px solid $color-3;
-                    border-right: 2px solid $color-3;
+                    border-right: none;
                     color: $color-3;
-                    font-family: $font-3;
-                    display: flex;
-                    align-items: center;
-                    padding-left: 5px;
-                    padding-right: 5px;
-                }
-                .svg {
-                    width: 50%;
-                    height: 100%;
-                    border-top: 2px solid $color-3;
+                    font-family: $font-1;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    .svg_container {
-                        width: 90%;
-                        height: 90%;
-                        overflow: hidden;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        .servicios_1_svg {
-                            width: 350px;
-                        }
-                    }
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    text-align: center;
+                    font-size: 2em;
                 }
             }
         }
@@ -129,12 +113,13 @@ $padding-bottom: 100px;
                     border-top: 2px solid $color-3;
                     border-right: none;
                     color: $color-3;
-                    font-family: $font-3;
+                    font-family: $font-1;
                     display: flex;
                     align-items: center;
                     padding-left: 5px;
                     padding-right: 5px;
                     text-align: center;
+                    font-size: 1em;
                     .servicio_2_desc {
                         font-size: 2em;
                     }
@@ -269,25 +254,15 @@ $padding-bottom: 100px;
                     display: flex;
                     height: 80%;
                     .desc {
-                        width: 50%;
+                        width: 100%;
                         height: 100%;
                         border-top: 2px solid $color-3;
-                        border-right: 2px solid $color-3;
+                        border-right: none;
                         color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
                         padding-right: 5px;
-                    }
-                    .svg {
-                        width: 50%;
-                        height: 240px;
-                        border-top: 2px solid $color-3;
-                        padding-left: 5px;
-                        padding-right: 5px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
                     }
                 }
             }
@@ -408,7 +383,7 @@ $padding-bottom: 100px;
                 .servicio_descripcion {
                     display: flex;
                     .desc {
-                        width: 50%;
+                        width: 100%;
                         height: 238px;
                         border-top: 2px solid $color-3;
                         border-right: 2px solid $color-3;
@@ -417,16 +392,7 @@ $padding-bottom: 100px;
                         align-items: center;
                         padding-left: 5px;
                         padding-right: 5px;
-                    }
-                    .svg {
-                        width: 50%;
-                        height: 240px;
-                        border-top: 2px solid $color-3;
-                        padding-left: 5px;
-                        padding-right: 5px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
+                        font-size: 1.8em;
                     }
                 }
             }
@@ -553,7 +519,7 @@ $padding-bottom: 100px;
                     text-align: center;
                     color: $color-3;
                     text-transform: uppercase;
-                    font-size: 2em;
+                    font-size: 1.8em;
                 }
             }
             .servicio {
@@ -575,40 +541,17 @@ $padding-bottom: 100px;
                     display: flex;
                     height: 80%;
                     .desc {
-                        width: 50%;
+                        width: 100%;
                         height: 100%;
                         border-top: 2px solid $color-3;
-                        border-right: 2px solid $color-3;
+                        border-right: none;
                         color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
                         padding-right: 5px;
-                        font-size: .8em;
-                    }
-                    .svg {
-                        width: 50%;
-                        height: 100%;
-                        border-top: 2px solid $color-3;
-                        padding-left: 5px;
-                        padding-right: 5px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        .svg_container {
-                            width: 90%;
-                            height: 90%;
-                            overflow: hidden;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            svg {
-                                width: 250px;
-                            }
-                            #carro {
-                                width: 200px;
-                            }
-                        }
+                        font-size: .9em;
+                        font-family: $font-1;
                     }
                 }
             }
@@ -636,7 +579,8 @@ $padding-bottom: 100px;
                         border-top: 2px solid $color-3;
                         border-right: none;
                         color: $color-3;
-                        font-family: $font-3;
+                        font-family: $font-1;
+                        font-size: .8em;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -738,14 +682,6 @@ $padding-bottom: 100px;
                         padding-right: 5px;
                         font-size: 1em;
                     }
-                    .svg {
-                        width: 50%;
-                        height: 240px;
-                        border-top: 2px solid $color-3;
-                        padding-left: 5px;
-                        padding-right: 5px;
-                        display: none;
-                    }
                 }
             }
             #servicio_2 {
@@ -754,25 +690,25 @@ $padding-bottom: 100px;
                 border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
-                    height: 20%;
+                    height: 30%;
                     width: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
                     color: $color-3;
-                    font-family: 'Lexend Tera', sans-serif;
+                    font-family: $font-1;
                 }
                 .servicio_descripcion {
                     display: flex;
-                    height: 80%;
+                    height: 70%;
                     .desc {
                         width: 100%;
                         height: 100%;
                         border-top: 2px solid $color-3;
                         border-right: none;
                         color: $color-3;
-                        font-family: $font-3;
+                        font-family: $font-1;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -904,14 +840,6 @@ $padding-bottom: 100px;
                         padding-right: 5px;
                         font-size: .8em;
                     }
-                    .svg {
-                        width: 30%;
-                        height: 240px;
-                        border-top: 2px solid $color-3;
-                        padding-left: 5px;
-                        padding-right: 5px;
-                        display: none;
-                    }
                 }
             }
             #servicio_2 {
@@ -920,7 +848,7 @@ $padding-bottom: 100px;
                 border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
-                    height: 20%;
+                    height: 30%;
                     width: 100%;
                     display: flex;
                     align-items: center;
@@ -931,14 +859,14 @@ $padding-bottom: 100px;
                 }
                 .servicio_descripcion {
                     display: flex;
-                    height: 80%;
+                    height: 70%;
                     .desc {
                         width: 100%;
                         height: 100%;
                         border-top: 2px solid $color-3;
                         border-right: none;
                         color: $color-3;
-                        font-family: $font-3;
+                        font-family: $font-1;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -1075,14 +1003,6 @@ $padding-bottom: 100px;
                         padding-right: 5px;
                         font-size: .8em;
                     }
-                    .svg {
-                        width: 30%;
-                        height: 240px;
-                        border-top: 2px solid $color-3;
-                        padding-left: 5px;
-                        padding-right: 5px;
-                        display: none;
-                    }
                 }
             }
             #servicio_2 {
@@ -1091,26 +1011,26 @@ $padding-bottom: 100px;
                 border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
-                    height: 20%;
+                    height: 30%;
                     width: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-1;
                     font-family: 'Lexend Tera', sans-serif;
                     
                 }
                 .servicio_descripcion {
                     display: flex;
-                    height: 80%;
+                    height: 70%;
                     .desc {
                         width: 100%;
                         height: 100%;
                         border-top: 2px solid $color-3;
                         border-right: none;
                         color: $color-3;
-                        font-family: $font-3;
+                        font-family: $font-1;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
