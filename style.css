@@ -21,7 +21,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 9;
-  background-color: #FEF6ED;
+  background-color: white;
   border-bottom: 1px solid #2f2d2d;
 }
 
@@ -143,7 +143,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #FEF6ED;
+  background-color: white;
 }
 
 #footer .footer {
@@ -213,7 +213,7 @@
 }
 
 body {
-  background-color: #FEF6ED;
+  background-color: white;
   overflow-x: hidden;
 }
 
@@ -284,17 +284,17 @@ body::-webkit-scrollbar-thumb {
 
 #page_container .main_wrapper #servicios {
   background-color: #2f2d2d;
-  color: #FEF6ED;
+  color: white;
 }
 
 #page_container .main_wrapper #productos {
-  background-color: #FEF6ED;
+  background-color: white;
   color: #2f2d2d;
 }
 
 #page_container .main_wrapper #contacto {
   background-color: #2f2d2d;
-  color: #FEF6ED;
+  color: white;
 }
 
 #page_container .main_wrapper .banner {
@@ -372,17 +372,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container .main_wrapper .banner .link a #boton_servicios {
-  background-color: #FEF6ED;
+  background-color: white;
   color: #2f2d2d;
 }
 
 #page_container .main_wrapper .banner .link a #boton_productos {
   background-color: #2f2d2d;
-  color: #FEF6ED;
+  color: white;
 }
 
 #page_container .main_wrapper .banner .link a #boton_contacto {
-  background-color: #FEF6ED;
+  background-color: white;
   color: #2f2d2d;
 }
 
@@ -499,7 +499,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #FEF6ED;
+  background-color: white;
   min-height: 100vh;
 }
 
@@ -570,7 +570,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #FEF6ED;
+  background-color: #2f2d2d;
   min-height: 100vh;
 }
 
@@ -591,7 +591,7 @@ body::-webkit-scrollbar-thumb {
 
 #page_container #servicios_wrapper .titulo h1 {
   text-align: center;
-  color: #2f2d2d;
+  color: white;
   font-family: "Lexend Tera", sans-serif;
   text-transform: uppercase;
   font-size: 3em;
@@ -600,7 +600,7 @@ body::-webkit-scrollbar-thumb {
 #page_container #servicios_wrapper .servicio {
   width: 1200px;
   height: 300px;
-  border: 2px solid #2f2d2d;
+  border: 2px solid white;
   margin-top: 10px;
 }
 
@@ -617,7 +617,7 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
-  color: #2f2d2d;
+  color: white;
   font-family: 'Lexend Tera', sans-serif;
 }
 
@@ -631,9 +631,9 @@ body::-webkit-scrollbar-thumb {
 #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
   width: 50%;
   height: 100%;
-  border-top: 2px solid #2f2d2d;
-  border-right: 2px solid #2f2d2d;
-  color: #2f2d2d;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  color: white;
   font-family: "Prompt", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -648,7 +648,7 @@ body::-webkit-scrollbar-thumb {
 #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
   width: 50%;
   height: 100%;
-  border-top: 2px solid #2f2d2d;
+  border-top: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -675,18 +675,14 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
 }
 
-#page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container svg {
+#page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container .servicios_1_svg {
   width: 350px;
-}
-
-#page_container #servicios_wrapper .servicio .servicio_descripcion .svg .svg_container #carro {
-  width: 1px;
 }
 
 #page_container #servicios_wrapper #servicio_2 {
   width: 1200px;
   height: 350px;
-  border: 2px solid #2f2d2d;
+  border: 2px solid white;
   margin-top: 10px;
 }
 
@@ -703,7 +699,7 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
-  color: #2f2d2d;
+  color: white;
   font-family: 'Lexend Tera', sans-serif;
 }
 
@@ -717,9 +713,9 @@ body::-webkit-scrollbar-thumb {
 #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
   width: 100%;
   height: 100%;
-  border-top: 2px solid #2f2d2d;
+  border-top: 2px solid white;
   border-right: none;
-  color: #2f2d2d;
+  color: white;
   font-family: "Prompt", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -739,7 +735,7 @@ body::-webkit-scrollbar-thumb {
 #page_container #servicios_wrapper .proveedores {
   width: 1200px;
   height: 150px;
-  border: 2px solid #2f2d2d;
+  border: 2px solid white;
   border-top: none;
   margin-bottom: 10px;
   display: -webkit-box;
@@ -768,7 +764,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 20px;
   width: 75%;
   border-right: none;
-  color: #2f2d2d;
+  color: white;
 }
 
 #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
@@ -781,7 +777,7 @@ body::-webkit-scrollbar-thumb {
 
 #page_container #servicios_wrapper .proveedores .textos a {
   font-family: "Prompt", sans-serif;
-  color: #2f2d2d;
+  color: white;
   text-decoration: none;
   margin-top: 5px;
 }
@@ -855,6 +851,10 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 50px;
 }
 
+#page_container #servicios_wrapper #yeso .logo_penta {
+  background-color: white;
+}
+
 #page_container #servicios_wrapper #yeso .textos {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -880,7 +880,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #FEF6ED;
+    background-color: #2f2d2d;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -898,14 +898,14 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: #2f2d2d;
+    color: white;
     text-transform: uppercase;
     font-size: 3em;
   }
   #page_container #servicios_wrapper .servicio {
     width: 1000px;
     height: 300px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper .servicio h1 {
@@ -921,7 +921,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-family: 'Lexend Tera', sans-serif;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -933,9 +933,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
     width: 50%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
-    border-right: 2px solid #2f2d2d;
-    color: #2f2d2d;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -948,7 +948,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 50%;
     height: 240px;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     padding-left: 5px;
     padding-right: 5px;
     display: -webkit-box;
@@ -964,7 +964,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 {
     width: 1000px;
     height: 300px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
@@ -980,7 +980,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-family: 'Lexend Tera', sans-serif;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
@@ -992,9 +992,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     font-family: "Prompt", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1011,7 +1011,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .proveedores {
     width: 1000px;
     height: 150px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     border-top: none;
     margin-bottom: 10px;
     display: -webkit-box;
@@ -1032,7 +1032,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 75%;
-    color: #2f2d2d;
+    color: white;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
     font-size: 1.5em;
@@ -1071,7 +1071,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #FEF6ED;
+    background-color: #2f2d2d;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1089,14 +1089,14 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: #2f2d2d;
+    color: white;
     text-transform: uppercase;
     font-size: 2em;
   }
   #page_container #servicios_wrapper .servicio {
     width: 800px;
     height: 300px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper .servicio h1 {
@@ -1112,7 +1112,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
     display: -webkit-box;
@@ -1122,9 +1122,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
     width: 50%;
     height: 238px;
-    border-top: 2px solid #2f2d2d;
-    border-right: 2px solid #2f2d2d;
-    color: #2f2d2d;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1137,7 +1137,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 50%;
     height: 240px;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     padding-left: 5px;
     padding-right: 5px;
     display: -webkit-box;
@@ -1153,7 +1153,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 {
     width: 800px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
@@ -1169,7 +1169,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-family: 'Lexend Tera', sans-serif;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
@@ -1181,9 +1181,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     font-family: "Prompt", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1197,7 +1197,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .proveedores {
     width: 800px;
     height: 150px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     border-top: none;
     margin-bottom: 10px;
     display: -webkit-box;
@@ -1218,7 +1218,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 60%;
-    color: #2f2d2d;
+    color: white;
   }
   #page_container #servicios_wrapper .proveedores .logo_penta {
     width: 40%;
@@ -1278,7 +1278,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #FEF6ED;
+    background-color: #2f2d2d;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1296,14 +1296,14 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: #2f2d2d;
+    color: white;
     text-transform: uppercase;
     font-size: 2em;
   }
   #page_container #servicios_wrapper .servicio {
     width: 600px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper .servicio h1 {
@@ -1319,7 +1319,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -1331,9 +1331,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
     width: 50%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
-    border-right: 2px solid #2f2d2d;
-    color: #2f2d2d;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1347,7 +1347,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 50%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     padding-left: 5px;
     padding-right: 5px;
     display: -webkit-box;
@@ -1383,7 +1383,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 {
     width: 600px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
@@ -1399,7 +1399,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-family: 'Lexend Tera', sans-serif;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
@@ -1411,9 +1411,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     font-family: "Prompt", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1427,7 +1427,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .proveedores {
     width: 600px;
     height: 120px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     border-top: none;
     margin-bottom: 10px;
     display: -webkit-box;
@@ -1447,7 +1447,7 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #2f2d2d;
+    color: white;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
     font-size: 1em;
@@ -1486,7 +1486,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #FEF6ED;
+    background-color: #2f2d2d;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1504,14 +1504,14 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: #2f2d2d;
+    color: white;
     text-transform: uppercase;
     font-size: 1.8em;
   }
   #page_container #servicios_wrapper .servicio {
     width: 500px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper .servicio h1 {
@@ -1527,7 +1527,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -1539,9 +1539,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1555,7 +1555,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 50%;
     height: 240px;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     padding-left: 5px;
     padding-right: 5px;
     display: none;
@@ -1563,7 +1563,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 {
     width: 500px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
@@ -1579,7 +1579,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-family: 'Lexend Tera', sans-serif;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
@@ -1591,9 +1591,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     font-family: "Prompt", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1610,7 +1610,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .proveedores {
     width: 500px;
     height: 150px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     border-top: none;
     margin-bottom: 10px;
     display: -webkit-box;
@@ -1630,7 +1630,7 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #2f2d2d;
+    color: white;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
     font-size: .9em;
@@ -1696,7 +1696,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #FEF6ED;
+    background-color: #2f2d2d;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1714,14 +1714,14 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: #2f2d2d;
+    color: white;
     text-transform: uppercase;
     font-size: 1.8em;
   }
   #page_container #servicios_wrapper .servicio {
     width: 400px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper .servicio h1 {
@@ -1737,7 +1737,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -1749,9 +1749,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1765,7 +1765,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 30%;
     height: 240px;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     padding-left: 5px;
     padding-right: 5px;
     display: none;
@@ -1773,7 +1773,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 {
     width: 400px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
@@ -1789,7 +1789,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-family: 'Lexend Tera', sans-serif;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
@@ -1801,9 +1801,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     font-family: "Prompt", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1817,7 +1817,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .proveedores {
     width: 400px;
     height: 150px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     border-top: none;
     margin-bottom: 10px;
     display: -webkit-box;
@@ -1840,7 +1840,7 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #2f2d2d;
+    color: white;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
     font-size: .6em;
@@ -1850,7 +1850,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .proveedores .textos a {
     font-family: "Prompt", sans-serif;
-    color: #2f2d2d;
+    color: white;
     text-decoration: none;
     margin-top: 5px;
   }
@@ -1905,7 +1905,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #FEF6ED;
+    background-color: #2f2d2d;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1924,14 +1924,14 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: #2f2d2d;
+    color: white;
     text-transform: uppercase;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio {
     width: 350px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper .servicio h1 {
@@ -1947,7 +1947,7 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #2f2d2d;
+    color: white;
     font-size: 1.5em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
@@ -1959,9 +1959,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1975,7 +1975,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .servicio .servicio_descripcion .svg {
     width: 30%;
     height: 240px;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     padding-left: 5px;
     padding-right: 5px;
     display: none;
@@ -1983,7 +1983,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 {
     width: 350px;
     height: 200px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     margin-top: 10px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
@@ -2011,9 +2011,9 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
     width: 100%;
     height: 100%;
-    border-top: 2px solid #2f2d2d;
+    border-top: 2px solid white;
     border-right: none;
-    color: #2f2d2d;
+    color: white;
     font-family: "Prompt", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2030,7 +2030,7 @@ body::-webkit-scrollbar-thumb {
   #page_container #servicios_wrapper .proveedores {
     width: 350px;
     height: 150px;
-    border: 2px solid #2f2d2d;
+    border: 2px solid white;
     border-top: none;
     margin-bottom: 10px;
     display: -webkit-box;
@@ -2053,7 +2053,7 @@ body::-webkit-scrollbar-thumb {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #2f2d2d;
+    color: white;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
     font-size: .8em;
@@ -2063,7 +2063,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .proveedores .textos a {
     font-family: "Prompt", sans-serif;
-    color: #2f2d2d;
+    color: white;
     text-decoration: none;
     margin-top: 5px;
   }
@@ -2125,7 +2125,7 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   width: 50%;
   border-radius: 10px 0 0 10px;
-  background-color: #FEF6ED;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2173,7 +2173,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #FEF6ED;
+  background-color: white;
 }
 
 #page_container #contacto_wrapper .contacto .datos_contacto .redes_sociales a i {

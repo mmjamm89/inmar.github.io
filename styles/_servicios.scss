@@ -37,7 +37,7 @@ $padding-bottom: 100px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: $color-1;
+        background-color: $color-2;
         min-height: 100vh;
         .titulo {
             height: 250px;
@@ -48,7 +48,7 @@ $padding-bottom: 100px;
             margin-bottom: 10px;
             h1 {
                 text-align: center;
-                color: $color-2;
+                color: $color-3;
                 font-family: $font-1;
                 text-transform: uppercase;
                 font-size: 3em;
@@ -57,7 +57,7 @@ $padding-bottom: 100px;
         .servicio {
             width: 1200px;
             height: 300px;
-            border: 2px solid $color-2;
+            border: 2px solid $color-3;
             margin-top: 10px;
             h1 {
                 height: 20%;
@@ -66,7 +66,7 @@ $padding-bottom: 100px;
                 align-items: center;
                 justify-content: center;
                 text-transform: uppercase;
-                color: $color-2;
+                color: $color-3;
                 font-family: 'Lexend Tera', sans-serif;
             }
             .servicio_descripcion {
@@ -75,9 +75,9 @@ $padding-bottom: 100px;
                 .desc {
                     width: 50%;
                     height: 100%;
-                    border-top: 2px solid $color-2;
-                    border-right: 2px solid $color-2;
-                    color: $color-2;
+                    border-top: 2px solid $color-3;
+                    border-right: 2px solid $color-3;
+                    color: $color-3;
                     font-family: $font-3;
                     display: flex;
                     align-items: center;
@@ -87,7 +87,7 @@ $padding-bottom: 100px;
                 .svg {
                     width: 50%;
                     height: 100%;
-                    border-top: 2px solid $color-2;
+                    border-top: 2px solid $color-3;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -98,11 +98,8 @@ $padding-bottom: 100px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        svg {
+                        .servicios_1_svg {
                             width: 350px;
-                        }
-                        #carro {
-                            width: 1px;
                         }
                     }
                 }
@@ -111,7 +108,7 @@ $padding-bottom: 100px;
         #servicio_2 {
             width: 1200px;
             height: 350px;
-            border: 2px solid $color-2;
+            border: 2px solid $color-3;
             margin-top: 10px;
             h1 {
                 height: 20%;
@@ -120,7 +117,7 @@ $padding-bottom: 100px;
                 align-items: center;
                 justify-content: center;
                 text-transform: uppercase;
-                color: $color-2;
+                color: $color-3;
                 font-family: 'Lexend Tera', sans-serif;
             }
             .servicio_descripcion {
@@ -129,9 +126,9 @@ $padding-bottom: 100px;
                 .desc {
                     width: 100%;
                     height: 100%;
-                    border-top: 2px solid $color-2;
+                    border-top: 2px solid $color-3;
                     border-right: none;
-                    color: $color-2;
+                    color: $color-3;
                     font-family: $font-3;
                     display: flex;
                     align-items: center;
@@ -147,7 +144,7 @@ $padding-bottom: 100px;
         .proveedores {
             width: 1200px;
             height: 150px;
-            border: 2px solid $color-2;
+            border: 2px solid $color-3;
             border-top: none;
             margin-bottom: 10px;
             display: flex;
@@ -163,7 +160,7 @@ $padding-bottom: 100px;
                 padding-bottom: 20px;
                 width: 75%;
                 border-right: none;
-                color: $color-2;
+                color: $color-3;
                 .titulo_penta {
                     font-family: $font-1;
                 }
@@ -172,7 +169,7 @@ $padding-bottom: 100px;
                 }
                 a {
                     font-family: $font-3;
-                    color: $color-2;
+                    color: $color-3;
                     text-decoration: none;
                     margin-top: 5px;
                 }
@@ -218,6 +215,9 @@ $padding-bottom: 100px;
         }
         #yeso {
             margin-bottom: 50px;
+            .logo_penta {
+                background-color: white;
+            }
             .textos {
                 align-items: flex-start;
                 justify-content: center;
@@ -235,7 +235,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-1;
+            background-color: $color-2;
             min-height: 100vh;
             .titulo {
                 height: 250px;
@@ -245,7 +245,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-2;                    
+                    color: $color-3;                    
                     text-transform: uppercase;
                     font-size: 3em;
                 }
@@ -253,7 +253,7 @@ $padding-bottom: 100px;
             .servicio {
                 width: 1000px;
                 height: 300px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -262,7 +262,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-family: 'Lexend Tera', sans-serif;
                 }
                 .servicio_descripcion {
@@ -271,9 +271,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 50%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
-                        border-right: 2px solid $color-2;
-                        color: $color-2;
+                        border-top: 2px solid $color-3;
+                        border-right: 2px solid $color-3;
+                        color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -282,7 +282,7 @@ $padding-bottom: 100px;
                     .svg {
                         width: 50%;
                         height: 240px;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: flex;
@@ -294,7 +294,7 @@ $padding-bottom: 100px;
             #servicio_2 {
                 width: 1000px;
                 height: 300px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -303,7 +303,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-family: 'Lexend Tera', sans-serif;
                 }
                 .servicio_descripcion {
@@ -312,9 +312,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         font-family: $font-3;
                         display: flex;
                         align-items: center;
@@ -329,7 +329,7 @@ $padding-bottom: 100px;
             .proveedores {
                 width: 1000px;
                 height: 150px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 border-top: none;
                 margin-bottom: 10px;
                 display: flex;
@@ -342,7 +342,7 @@ $padding-bottom: 100px;
                     padding-top: 20px;
                     padding-bottom: 20px;
                     width: 75%;
-                    color: $color-2;
+                    color: $color-3;
                     .titulo_penta {
                         font-size: 1.5em;
                     }
@@ -376,7 +376,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-1;
+            background-color: $color-2;
             min-height: 100vh;
             .titulo {
                 height: 250px;
@@ -386,7 +386,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-2;
+                    color: $color-3;
                     text-transform: uppercase;
                     font-size: 2em;
                 }
@@ -394,7 +394,7 @@ $padding-bottom: 100px;
             .servicio {
                 width: 800px;
                 height: 300px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 60px;
@@ -403,16 +403,16 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                 }
                 .servicio_descripcion {
                     display: flex;
                     .desc {
                         width: 50%;
                         height: 238px;
-                        border-top: 2px solid $color-2;
-                        border-right: 2px solid $color-2;
-                        color: $color-2;
+                        border-top: 2px solid $color-3;
+                        border-right: 2px solid $color-3;
+                        color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -421,7 +421,7 @@ $padding-bottom: 100px;
                     .svg {
                         width: 50%;
                         height: 240px;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: flex;
@@ -433,7 +433,7 @@ $padding-bottom: 100px;
             #servicio_2 {
                 width: 800px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -442,7 +442,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-family: 'Lexend Tera', sans-serif;
                 }
                 .servicio_descripcion {
@@ -451,9 +451,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         font-family: $font-3;
                         display: flex;
                         align-items: center;
@@ -465,7 +465,7 @@ $padding-bottom: 100px;
             .proveedores {
                 width: 800px;
                 height: 150px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 border-top: none;
                 margin-bottom: 10px;
                 display: flex;
@@ -478,7 +478,7 @@ $padding-bottom: 100px;
                     padding-top: 20px;
                     padding-bottom: 20px;
                     width: 60%;
-                    color: $color-2;
+                    color: $color-3;
                     .titulo_penta {
                     }
                     .info_penta {
@@ -541,7 +541,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-1;
+            background-color: $color-2;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -551,7 +551,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-2;
+                    color: $color-3;
                     text-transform: uppercase;
                     font-size: 2em;
                 }
@@ -559,7 +559,7 @@ $padding-bottom: 100px;
             .servicio {
                 width: 600px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -568,7 +568,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-size: 1.5em;
                 }
                 .servicio_descripcion {
@@ -577,9 +577,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 50%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
-                        border-right: 2px solid $color-2;
-                        color: $color-2;
+                        border-top: 2px solid $color-3;
+                        border-right: 2px solid $color-3;
+                        color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -589,7 +589,7 @@ $padding-bottom: 100px;
                     .svg {
                         width: 50%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: flex;
@@ -615,7 +615,7 @@ $padding-bottom: 100px;
             #servicio_2 {
                 width: 600px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -624,7 +624,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-family: 'Lexend Tera', sans-serif;
                 }
                 .servicio_descripcion {
@@ -633,9 +633,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         font-family: $font-3;
                         display: flex;
                         align-items: center;
@@ -647,7 +647,7 @@ $padding-bottom: 100px;
             .proveedores {
                 width: 600px;
                 height: 120px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 border-top: none;
                 margin-bottom: 10px;
                 display: flex;
@@ -659,7 +659,7 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    color: $color-2;
+                    color: $color-3;
                     .titulo_penta {
                         font-size: 1em;
                     }
@@ -693,7 +693,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-1;
+            background-color: $color-2;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -703,7 +703,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-2;
+                    color: $color-3;
                     text-transform: uppercase;
                     font-size: 1.8em;
                 }
@@ -711,7 +711,7 @@ $padding-bottom: 100px;
             .servicio {
                 width: 500px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 30%;
@@ -720,7 +720,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-size: 1.5em;
                 }
                 .servicio_descripcion {
@@ -729,9 +729,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -741,7 +741,7 @@ $padding-bottom: 100px;
                     .svg {
                         width: 50%;
                         height: 240px;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: none;
@@ -751,7 +751,7 @@ $padding-bottom: 100px;
             #servicio_2 {
                 width: 500px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -760,7 +760,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-family: 'Lexend Tera', sans-serif;
                 }
                 .servicio_descripcion {
@@ -769,9 +769,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         font-family: $font-3;
                         display: flex;
                         align-items: center;
@@ -786,7 +786,7 @@ $padding-bottom: 100px;
             .proveedores {
                 width: 500px;
                 height: 150px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 border-top: none;
                 margin-bottom: 10px;
                 display: flex;
@@ -798,7 +798,7 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    color: $color-2;
+                    color: $color-3;
                     .titulo_penta {
                         font-size: .9em;
                     }
@@ -859,7 +859,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-1;
+            background-color: $color-2;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -869,7 +869,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-2;
+                    color: $color-3;
                     text-transform: uppercase;
                     font-size: 1.8em;
                 }
@@ -877,7 +877,7 @@ $padding-bottom: 100px;
             .servicio {
                 width: 400px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 30%;
@@ -886,7 +886,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-size: 1.5em;
                 }
                 .servicio_descripcion {
@@ -895,9 +895,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -907,7 +907,7 @@ $padding-bottom: 100px;
                     .svg {
                         width: 30%;
                         height: 240px;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: none;
@@ -917,7 +917,7 @@ $padding-bottom: 100px;
             #servicio_2 {
                 width: 400px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -926,7 +926,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-family: 'Lexend Tera', sans-serif;
                 }
                 .servicio_descripcion {
@@ -935,9 +935,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         font-family: $font-3;
                         display: flex;
                         align-items: center;
@@ -949,7 +949,7 @@ $padding-bottom: 100px;
             .proveedores {
                 width: 400px;
                 height: 150px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 border-top: none;
                 margin-bottom: 10px;
                 display: flex;
@@ -962,7 +962,7 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    color: $color-2;
+                    color: $color-3;
                     .titulo_penta {
                         font-size: .6em;
                     }
@@ -971,7 +971,7 @@ $padding-bottom: 100px;
                     }
                     a {
                         font-family: $font-3;
-                        color: $color-2;
+                        color: $color-3;
                         text-decoration: none;
                         margin-top: 5px;
                     }
@@ -1029,7 +1029,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-1;
+            background-color: $color-2;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -1040,7 +1040,7 @@ $padding-bottom: 100px;
                 border-bottom: none;
                 h1 {
                     text-align: center;
-                    color: $color-2;
+                    color: $color-3;
                     text-transform: uppercase;
                     font-size: 1.5em;
                 }
@@ -1048,7 +1048,7 @@ $padding-bottom: 100px;
             .servicio {
                 width: 350px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 30%;
@@ -1057,7 +1057,7 @@ $padding-bottom: 100px;
                     align-items: center;
                     justify-content: center;
                     text-transform: uppercase;
-                    color: $color-2;
+                    color: $color-3;
                     font-size: 1.5em;
                 }
                 .servicio_descripcion {
@@ -1066,9 +1066,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         display: flex;
                         align-items: center;
                         padding-left: 5px;
@@ -1078,7 +1078,7 @@ $padding-bottom: 100px;
                     .svg {
                         width: 30%;
                         height: 240px;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         padding-left: 5px;
                         padding-right: 5px;
                         display: none;
@@ -1088,7 +1088,7 @@ $padding-bottom: 100px;
             #servicio_2 {
                 width: 350px;
                 height: 200px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 margin-top: 10px;
                 h1 {
                     height: 20%;
@@ -1107,9 +1107,9 @@ $padding-bottom: 100px;
                     .desc {
                         width: 100%;
                         height: 100%;
-                        border-top: 2px solid $color-2;
+                        border-top: 2px solid $color-3;
                         border-right: none;
-                        color: $color-2;
+                        color: $color-3;
                         font-family: $font-3;
                         display: flex;
                         align-items: center;
@@ -1124,7 +1124,7 @@ $padding-bottom: 100px;
             .proveedores {
                 width: 350px;
                 height: 150px;
-                border: 2px solid $color-2;
+                border: 2px solid $color-3;
                 border-top: none;
                 margin-bottom: 10px;
                 display: flex;
@@ -1137,7 +1137,7 @@ $padding-bottom: 100px;
                     padding-right: 5px;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    color: $color-2;
+                    color: $color-3;
                     .titulo_penta {
                         font-size: .8em;
                     }
@@ -1146,7 +1146,7 @@ $padding-bottom: 100px;
                     }
                     a {
                         font-family: $font-3;
-                        color: $color-2;
+                        color: $color-3;
                         text-decoration: none;
                         margin-top: 5px;
                     }
