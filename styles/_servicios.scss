@@ -2,7 +2,7 @@
 
 //COLORS
 $color-2: #2f2d2d;
-$color-1: #FEF6ED;
+$color-1: white;
 $color-3: white;
 $color-4: #FEF2D4;
 $color-5: #F2922E;
@@ -37,7 +37,7 @@ $padding-bottom: 100px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: $color-2;
+        background-color: white;
         min-height: 100vh;
         .titulo {
             height: 250px;
@@ -48,7 +48,7 @@ $padding-bottom: 100px;
             margin-bottom: 10px;
             h1 {
                 text-align: center;
-                color: $color-3;
+                color: $color-2;
                 font-family: $font-1;
                 text-transform: uppercase;
                 font-size: 3em;
@@ -59,6 +59,8 @@ $padding-bottom: 100px;
             height: 300px;
             border: 2px solid $color-3;
             margin-top: 10px;
+            border-radius: 10px 10px 0px 0px;
+            background-color: $color-2;
             h1 {
                 height: 20%;
                 width: 100%;
@@ -133,6 +135,8 @@ $padding-bottom: 100px;
             border-top: none;
             margin-bottom: 10px;
             display: flex;
+            border-radius: 0px 0px 10px 10px;
+            background-color: $color-2;
             .textos {
                 display: flex;
                 flex-direction: column;
@@ -179,6 +183,7 @@ $padding-bottom: 100px;
         #protex {
             border-top: none;
             margin-bottom: 0;
+            border-radius: 0;
             .textos {
                 align-items: flex-start;
                 justify-content: center;
@@ -186,6 +191,7 @@ $padding-bottom: 100px;
         }
         #mobiline {
             margin-bottom: 0;
+            border-radius: 0;
             .textos {
                 align-items: flex-start;
                 justify-content: center;
@@ -193,6 +199,7 @@ $padding-bottom: 100px;
         }
         #carpincruz {
             margin-bottom: 0;
+            border-radius: 0;
             .textos {
                 align-items: flex-start;
                 justify-content: center;
@@ -201,7 +208,18 @@ $padding-bottom: 100px;
         #yeso {
             margin-bottom: 50px;
             .logo_penta {
-                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                    text-decoration: none;
+                    h1 {
+                        color: $color-1;
+                        font-family: $font-1;
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+                }
             }
             .textos {
                 align-items: flex-start;
@@ -220,7 +238,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-2;
+            background-color: $color-1;
             min-height: 100vh;
             .titulo {
                 height: 250px;
@@ -230,7 +248,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-3;                    
+                    color: $color-2;                    
                     text-transform: uppercase;
                     font-size: 3em;
                 }
@@ -351,7 +369,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-2;
+            background-color: $color-1;
             min-height: 100vh;
             .titulo {
                 height: 250px;
@@ -361,7 +379,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-3;
+                    color: $color-2;
                     text-transform: uppercase;
                     font-size: 2em;
                 }
@@ -409,7 +427,8 @@ $padding-bottom: 100px;
                     justify-content: center;
                     text-transform: uppercase;
                     color: $color-3;
-                    font-family: 'Lexend Tera', sans-serif;
+                    font-family: $font-1;
+                    font-size: 1.4em;
                 }
                 .servicio_descripcion {
                     display: flex;
@@ -507,7 +526,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-2;
+            background-color: $color-1;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -517,7 +536,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-3;
+                    color: $color-2;
                     text-transform: uppercase;
                     font-size: 1.8em;
                 }
@@ -637,7 +656,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-2;
+            background-color: $color-1;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -647,7 +666,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-3;
+                    color: $color-2;
                     text-transform: uppercase;
                     font-size: 1.8em;
                 }
@@ -698,6 +717,7 @@ $padding-bottom: 100px;
                     text-transform: uppercase;
                     color: $color-3;
                     font-family: $font-1;
+                    font-size: 1em;
                 }
                 .servicio_descripcion {
                     display: flex;
@@ -795,7 +815,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-2;
+            background-color: $color-1;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -805,7 +825,7 @@ $padding-bottom: 100px;
                 justify-content: center;
                 h1 {
                     text-align: center;
-                    color: $color-3;
+                    color: $color-2;
                     text-transform: uppercase;
                     font-size: 1.8em;
                 }
@@ -939,6 +959,7 @@ $padding-bottom: 100px;
             }
             #yeso {
                 margin-bottom: 50px;
+                border-radius: none;
                 .logo_penta{
                     img {
                         transform: scale(.8);
@@ -957,7 +978,7 @@ $padding-bottom: 100px;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-2;
+            background-color: $color-1;
             min-height: 100vh;
             .titulo {
                 height: 150px;
@@ -968,7 +989,7 @@ $padding-bottom: 100px;
                 border-bottom: none;
                 h1 {
                     text-align: center;
-                    color: $color-3;
+                    color: $color-2;
                     text-transform: uppercase;
                     font-size: 1.5em;
                 }
@@ -987,6 +1008,7 @@ $padding-bottom: 100px;
                     text-transform: uppercase;
                     color: $color-3;
                     font-size: 1.5em;
+                    font-size: 1.2em;
                 }
                 .servicio_descripcion {
                     display: flex;
@@ -1019,6 +1041,7 @@ $padding-bottom: 100px;
                     text-transform: uppercase;
                     color: $color-1;
                     font-family: 'Lexend Tera', sans-serif;
+                    font-size: .9em;
                     
                 }
                 .servicio_descripcion {
@@ -1093,6 +1116,7 @@ $padding-bottom: 100px;
             }
             #yeso {
                 margin-bottom: 50px;
+                border-radius: 0;
                 .logo_penta {
                     transform: scale(.7);
                 }

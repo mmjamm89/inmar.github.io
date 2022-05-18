@@ -21,8 +21,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 9;
-  background-color: white;
-  border-bottom: 1px solid #2f2d2d;
+  background-color: #2f2d2d;
+  border-bottom: 1px solid white;
 }
 
 #navbar .navbar {
@@ -40,7 +40,7 @@
 }
 
 #navbar .navbar .logo {
-  color: #2f2d2d;
+  color: white;
 }
 
 #navbar .navbar .nav_links {
@@ -68,7 +68,7 @@
 
 #navbar .navbar .nav_links li a {
   text-decoration: none;
-  color: #2f2d2d;
+  color: white;
   text-transform: uppercase;
   font-family: "Lexend Tera", sans-serif;
 }
@@ -129,7 +129,7 @@
 }
 
 #footer {
-  border-top: 1px solid #2f2d2d;
+  border-top: 1px solid white;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -143,7 +143,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: white;
+  background-color: #2f2d2d;
 }
 
 #footer .footer {
@@ -178,7 +178,7 @@
   height: 90%;
   font-family: "Lexend Tera", sans-serif;
   font-size: .6em;
-  color: #2f2d2d;
+  color: white;
 }
 
 #footer .footer .footer_logo {
@@ -193,7 +193,7 @@
           justify-content: flex-end;
   height: 90%;
   width: 250px;
-  color: #2f2d2d;
+  color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -427,7 +427,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 800px) {
   #page_container .main_wrapper .banner {
-    height: 200px;
+    height: 250px;
   }
   #page_container .main_wrapper .banner .informacion {
     width: 50%;
@@ -448,7 +448,7 @@ body::-webkit-scrollbar-thumb {
     height: 500px;
   }
   #page_container .main_wrapper .banner {
-    height: 200px;
+    height: 230px;
   }
   #page_container .main_wrapper .banner .informacion {
     width: 50%;
@@ -461,6 +461,9 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container .main_wrapper .banner .link {
     width: 40%;
+  }
+  #page_container .main_wrapper .banner .link a .boton {
+    height: 75px;
   }
 }
 
@@ -570,7 +573,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #2f2d2d;
+  background-color: white;
   min-height: 100vh;
 }
 
@@ -591,7 +594,7 @@ body::-webkit-scrollbar-thumb {
 
 #page_container #servicios_wrapper .titulo h1 {
   text-align: center;
-  color: white;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   text-transform: uppercase;
   font-size: 3em;
@@ -602,6 +605,8 @@ body::-webkit-scrollbar-thumb {
   height: 300px;
   border: 2px solid white;
   margin-top: 10px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #2f2d2d;
 }
 
 #page_container #servicios_wrapper .servicio h1 {
@@ -713,6 +718,8 @@ body::-webkit-scrollbar-thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #2f2d2d;
 }
 
 #page_container #servicios_wrapper .proveedores .textos {
@@ -782,6 +789,7 @@ body::-webkit-scrollbar-thumb {
 #page_container #servicios_wrapper #protex {
   border-top: none;
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 #page_container #servicios_wrapper #protex .textos {
@@ -795,6 +803,7 @@ body::-webkit-scrollbar-thumb {
 
 #page_container #servicios_wrapper #mobiline {
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 #page_container #servicios_wrapper #mobiline .textos {
@@ -808,6 +817,7 @@ body::-webkit-scrollbar-thumb {
 
 #page_container #servicios_wrapper #carpincruz {
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 #page_container #servicios_wrapper #carpincruz .textos {
@@ -824,7 +834,26 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper #yeso .logo_penta {
-  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #servicios_wrapper #yeso .logo_penta a {
+  text-decoration: none;
+}
+
+#page_container #servicios_wrapper #yeso .logo_penta a h1 {
+  color: white;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 #page_container #servicios_wrapper #yeso .textos {
@@ -852,7 +881,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #2f2d2d;
+    background-color: white;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -870,7 +899,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: white;
+    color: #2f2d2d;
     text-transform: uppercase;
     font-size: 3em;
   }
@@ -1027,7 +1056,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #2f2d2d;
+    background-color: white;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1045,7 +1074,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: white;
+    color: #2f2d2d;
     text-transform: uppercase;
     font-size: 2em;
   }
@@ -1111,7 +1140,8 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
     text-transform: uppercase;
     color: white;
-    font-family: 'Lexend Tera', sans-serif;
+    font-family: "Lexend Tera", sans-serif;
+    font-size: 1.4em;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
     display: -webkit-box;
@@ -1219,7 +1249,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #2f2d2d;
+    background-color: white;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1237,7 +1267,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: white;
+    color: #2f2d2d;
     text-transform: uppercase;
     font-size: 1.8em;
   }
@@ -1393,7 +1423,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #2f2d2d;
+    background-color: white;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1411,7 +1441,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: white;
+    color: #2f2d2d;
     text-transform: uppercase;
     font-size: 1.8em;
   }
@@ -1480,6 +1510,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase;
     color: white;
     font-family: "Lexend Tera", sans-serif;
+    font-size: 1em;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
     display: -webkit-box;
@@ -1595,7 +1626,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #2f2d2d;
+    background-color: white;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1613,7 +1644,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: white;
+    color: #2f2d2d;
     text-transform: uppercase;
     font-size: 1.8em;
   }
@@ -1773,6 +1804,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper #yeso {
     margin-bottom: 50px;
+    border-radius: none;
   }
   #page_container #servicios_wrapper #yeso .logo_penta img {
     -webkit-transform: scale(0.8);
@@ -1796,7 +1828,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #2f2d2d;
+    background-color: white;
     min-height: 100vh;
   }
   #page_container #servicios_wrapper .titulo {
@@ -1815,7 +1847,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper .titulo h1 {
     text-align: center;
-    color: white;
+    color: #2f2d2d;
     text-transform: uppercase;
     font-size: 1.5em;
   }
@@ -1840,6 +1872,7 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase;
     color: white;
     font-size: 1.5em;
+    font-size: 1.2em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion {
     display: -webkit-box;
@@ -1882,8 +1915,9 @@ body::-webkit-scrollbar-thumb {
         -ms-flex-pack: center;
             justify-content: center;
     text-transform: uppercase;
-    color: #FEF6ED;
+    color: white;
     font-family: 'Lexend Tera', sans-serif;
+    font-size: .9em;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
     display: -webkit-box;
@@ -1974,6 +2008,7 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper #yeso {
     margin-bottom: 50px;
+    border-radius: 0;
   }
   #page_container #servicios_wrapper #yeso .logo_penta {
     -webkit-transform: scale(0.7);
