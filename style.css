@@ -850,12 +850,43 @@ body::-webkit-scrollbar-thumb {
   text-decoration: underline;
 }
 
-#page_container #servicios_wrapper #yeso {
+#page_container #servicios_wrapper #kaiken {
   background-color: white;
 }
 
-#page_container #servicios_wrapper #yeso .textos {
+#page_container #servicios_wrapper #kaiken .logo_penta a img {
+  width: 200px;
+}
+
+#page_container #servicios_wrapper #kaiken .textos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #servicios_wrapper #kaiken .textos p {
+  font-size: 1.5em;
   color: #2f2d2d;
+}
+
+#page_container #servicios_wrapper #kaiken .textos a {
+  color: #2f2d2d;
+  font-size: 1.2em;
+}
+
+#page_container #servicios_wrapper #kaiken .textos a:hover {
+  text-decoration: underline;
+}
+
+#page_container #servicios_wrapper #yeso {
+  background-color: #2f2d2d;
+}
+
+#page_container #servicios_wrapper #yeso .textos {
+  color: white;
 }
 
 #page_container #servicios_wrapper #yeso .logo_penta {
@@ -875,7 +906,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper #yeso .logo_penta a h1 {
-  color: #2f2d2d;
+  color: white;
   font-family: "Lexend Tera", sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -895,7 +926,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper #yeso .textos a {
-  color: #2f2d2d;
+  color: white;
   font-size: 1.2em;
 }
 
@@ -932,6 +963,9 @@ body::-webkit-scrollbar-thumb {
     font-size: 1em;
   }
   #page_container #servicios_wrapper #carpincruz .textos p {
+    font-size: 1em;
+  }
+  #page_container #servicios_wrapper #kaiken .textos p {
     font-size: 1em;
   }
   #page_container #servicios_wrapper #yeso .textos p {
@@ -998,7 +1032,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 810px) {
   #page_container #servicios_wrapper .servicio {
-    height: 250px;
+    height: 300px;
   }
   #page_container #servicios_wrapper .servicio h1 {
     font-size: 2em;
@@ -1008,7 +1042,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 15px;
   }
   #page_container #servicios_wrapper #servicio_2 {
-    height: 250px;
+    height: 300px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
     font-size: 2em;
@@ -1046,6 +1080,9 @@ body::-webkit-scrollbar-thumb {
   }
   #page_container #servicios_wrapper #carpincruz .textos p {
     font-size: 1em;
+  }
+  #page_container #servicios_wrapper #kaiken .logo_penta a img {
+    width: 150px;
   }
   #page_container #servicios_wrapper #yeso .logo_penta a h1 {
     font-size: 20px;
@@ -1136,6 +1173,18 @@ body::-webkit-scrollbar-thumb {
     width: 60%;
   }
   #page_container #servicios_wrapper #carpincruz .textos p {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper #kaiken {
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #kaiken .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #kaiken .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #kaiken .textos p {
     font-size: 12px;
   }
   #page_container #servicios_wrapper #yeso {
