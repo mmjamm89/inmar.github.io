@@ -573,21 +573,19 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #514F4F;
+  background-color: red;
   min-height: 100vh;
 }
 
 #page_container #servicios_wrapper .servicio {
-  width: 1500px;
-  height: 300px;
-  border: 1px solid white;
-  margin-top: 50px;
-  border-radius: 10px 10px 0px 0px;
-  background-color: #2f2d2d;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  padding-top: 20px;
 }
 
 #page_container #servicios_wrapper .servicio h1 {
-  height: 20%;
+  height: 40%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -599,23 +597,29 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
-  color: white;
+  color: #2f2d2d;
   font-family: 'Lexend Tera', sans-serif;
+  font-size: 4em;
 }
 
 #page_container #servicios_wrapper .servicio .servicio_descripcion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60%;
 }
 
 #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-  width: 100%;
+  width: 90%;
   height: 100%;
-  border-top: 1px solid white;
   border-right: none;
-  color: white;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -633,14 +637,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper #servicio_2 {
-  width: 1500px;
-  height: 350px;
-  border: 1px solid white;
-  margin-top: 25px;
+  width: 100%;
+  height: 400px;
 }
 
 #page_container #servicios_wrapper #servicio_2 h1 {
-  height: 20%;
+  height: 40%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -652,7 +654,7 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
-  color: white;
+  color: #2f2d2d;
   font-family: 'Lexend Tera', sans-serif;
 }
 
@@ -660,15 +662,14 @@ body::-webkit-scrollbar-thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80%;
+  height: 60%;
 }
 
 #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-  width: 100%;
+  width: 90%;
   height: 100%;
-  border-top: 1px solid white;
   border-right: none;
-  color: white;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -687,15 +688,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper .proveedores {
-  width: 1500px;
-  height: 150px;
-  border: 1px solid white;
+  width: 100%;
+  height: 200px;
   border-top: none;
-  margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 0px 0px 10px 10px;
   background-color: #2f2d2d;
 }
 
@@ -714,8 +712,8 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 75%;
@@ -760,14 +758,14 @@ body::-webkit-scrollbar-thumb {
   width: 200px;
 }
 
-#page_container #servicios_wrapper #penta {
-  margin-bottom: 25px;
-}
-
 #page_container #servicios_wrapper #protex {
   border-top: none;
   margin-bottom: 0;
   border-radius: 0;
+}
+
+#page_container #servicios_wrapper #protex .logo_penta a img {
+  width: 400px;
 }
 
 #page_container #servicios_wrapper #protex .textos {
@@ -779,9 +777,27 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
 }
 
+#page_container #servicios_wrapper #protex .textos p {
+  font-size: 1.5em;
+}
+
+#page_container #servicios_wrapper #protex .textos a {
+  color: white;
+  font-size: 1.2em;
+}
+
+#page_container #servicios_wrapper #protex .textos a:hover {
+  text-decoration: underline;
+}
+
 #page_container #servicios_wrapper #mobiline {
   margin-bottom: 0;
   border-radius: 0;
+  background-color: white;
+}
+
+#page_container #servicios_wrapper #mobiline .logo_penta a img {
+  width: 400px;
 }
 
 #page_container #servicios_wrapper #mobiline .textos {
@@ -791,6 +807,20 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #2f2d2d;
+}
+
+#page_container #servicios_wrapper #mobiline .textos p {
+  font-size: 1.5em;
+}
+
+#page_container #servicios_wrapper #mobiline .textos a {
+  color: #2f2d2d;
+  font-size: 1.2em;
+}
+
+#page_container #servicios_wrapper #mobiline .textos a:hover {
+  text-decoration: underline;
 }
 
 #page_container #servicios_wrapper #carpincruz {
@@ -807,8 +837,25 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
 }
 
+#page_container #servicios_wrapper #carpincruz .textos p {
+  font-size: 1.5em;
+}
+
+#page_container #servicios_wrapper #carpincruz .textos a {
+  color: white;
+  font-size: 1.2em;
+}
+
+#page_container #servicios_wrapper #carpincruz .textos a:hover {
+  text-decoration: underline;
+}
+
 #page_container #servicios_wrapper #yeso {
-  margin-bottom: 50px;
+  background-color: white;
+}
+
+#page_container #servicios_wrapper #yeso .textos {
+  color: #2f2d2d;
 }
 
 #page_container #servicios_wrapper #yeso .logo_penta {
@@ -828,7 +875,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper #yeso .logo_penta a h1 {
-  color: white;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -843,1949 +890,268 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
 }
 
-@media screen and (max-width: 1550px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
-  }
-  #page_container #servicios_wrapper .titulo {
-    height: 250px;
-    width: 1400px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 10px;
-  }
-  #page_container #servicios_wrapper .titulo h1 {
-    text-align: center;
-    color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
-    text-transform: uppercase;
+#page_container #servicios_wrapper #yeso .textos p {
+  font-size: 1.5em;
+}
+
+#page_container #servicios_wrapper #yeso .textos a {
+  color: #2f2d2d;
+  font-size: 1.2em;
+}
+
+#page_container #servicios_wrapper #yeso .textos a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1480px) {
+  #page_container #servicios_wrapper .servicio h1 {
     font-size: 3em;
   }
-  #page_container #servicios_wrapper .servicio {
-    width: 1400px;
-    height: 300px;
-    border: 1px solid white;
-    margin-top: 50px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .servicio h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    font-size: 2em;
-  }
-  #page_container #servicios_wrapper #servicio_2 {
-    width: 1400px;
-    height: 350px;
-    border: 1px solid white;
-    margin-top: 0px;
-  }
-  #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    font-size: 1em;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
-    font-size: 2em;
-  }
-  #page_container #servicios_wrapper .proveedores {
-    width: 1400px;
-    height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-radius: 0px 0px 10px 10px;
-    background-color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 75%;
-    border-right: none;
-    color: white;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: "Prompt", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos a {
-    font-family: "Prompt", sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-top: 5px;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta {
-    width: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
-    width: 200px;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta #logo_protex {
-    width: 200px;
-  }
-  #page_container #servicios_wrapper #penta {
-    margin-bottom: 50px;
-  }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #protex .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #mobiline .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #carpincruz .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta a {
-    text-decoration: none;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta a h1 {
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-  }
-  #page_container #servicios_wrapper #yeso .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
 }
 
-@media screen and (max-width: 1420px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
+@media screen and (max-width: 1280px) {
+  #page_container #servicios_wrapper .servicio {
+    height: 300px;
   }
-  #page_container #servicios_wrapper .titulo {
-    height: 250px;
-    width: 1300px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 10px;
-  }
-  #page_container #servicios_wrapper .titulo h1 {
-    text-align: center;
-    color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
-    text-transform: uppercase;
+  #page_container #servicios_wrapper .servicio h1 {
     font-size: 3em;
   }
-  #page_container #servicios_wrapper .servicio {
-    width: 1300px;
-    height: 300px;
-    border: 1px solid white;
-    margin-top: 50px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .servicio h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    font-size: 2em;
+    font-size: 25px;
   }
   #page_container #servicios_wrapper #servicio_2 {
-    width: 1300px;
-    height: 350px;
-    border: 1px solid white;
-    margin-top: 0px;
+    height: 300px;
   }
-  #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
+    font-size: 25px;
   }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
+  #page_container #servicios_wrapper #protex .textos p {
     font-size: 1em;
   }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
-    font-size: 2em;
-  }
-  #page_container #servicios_wrapper .proveedores {
-    width: 1300px;
-    height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-radius: 0px 0px 10px 10px;
-    background-color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 75%;
-    border-right: none;
-    color: white;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: "Prompt", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos a {
-    font-family: "Prompt", sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-top: 5px;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta {
-    width: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
-    width: 200px;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta #logo_protex {
-    width: 200px;
-  }
-  #page_container #servicios_wrapper #penta {
-    margin-bottom: 50px;
-  }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #protex .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #mobiline .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #carpincruz .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta a {
-    text-decoration: none;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta a h1 {
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-  }
-  #page_container #servicios_wrapper #yeso .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media screen and (max-width: 1420px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
-  }
-  #page_container #servicios_wrapper .titulo {
-    height: 250px;
-    width: 1200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 10px;
-  }
-  #page_container #servicios_wrapper .titulo h1 {
-    text-align: center;
-    color: #2f2d2d;
-    font-family: "Lexend Tera", sans-serif;
-    text-transform: uppercase;
-    font-size: 3em;
-  }
-  #page_container #servicios_wrapper .servicio {
-    width: 1200px;
-    height: 300px;
-    border: 1px solid white;
-    margin-top: 50px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .servicio h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    font-size: 2em;
-  }
-  #page_container #servicios_wrapper #servicio_2 {
-    width: 1200px;
-    height: 350px;
-    border: 1px solid white;
-    margin-top: 0px;
-  }
-  #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
+  #page_container #servicios_wrapper #mobiline .textos p {
     font-size: 1em;
   }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
-    font-size: 2em;
+  #page_container #servicios_wrapper #carpincruz .textos p {
+    font-size: 1em;
   }
-  #page_container #servicios_wrapper .proveedores {
-    width: 1200px;
-    height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-radius: 0px 0px 10px 10px;
-    background-color: #2f2d2d;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 75%;
-    border-right: none;
-    color: white;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-family: "Lexend Tera", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-family: "Prompt", sans-serif;
-  }
-  #page_container #servicios_wrapper .proveedores .textos a {
-    font-family: "Prompt", sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-top: 5px;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta {
-    width: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
-    width: 200px;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta #logo_protex {
-    width: 200px;
-  }
-  #page_container #servicios_wrapper #penta {
-    margin-bottom: 50px;
-  }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #protex .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #mobiline .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  #page_container #servicios_wrapper #carpincruz .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta a {
-    text-decoration: none;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta a h1 {
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-  }
-  #page_container #servicios_wrapper #yeso .textos {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  #page_container #servicios_wrapper #yeso .textos p {
+    font-size: 1em;
   }
 }
 
-@media screen and (max-width: 1240px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
-  }
-  #page_container #servicios_wrapper .titulo {
-    height: 250px;
-    width: 1000px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper .titulo h1 {
-    text-align: center;
-    color: #2f2d2d;
-    text-transform: uppercase;
-    font-size: 2.8em;
-  }
+@media screen and (max-width: 1110px) {
   #page_container #servicios_wrapper .servicio {
-    width: 1000px;
-    height: 300px;
-    border: 1px solid white;
-    margin-top: 50px;
+    height: 250px;
   }
   #page_container #servicios_wrapper .servicio h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
+    font-size: 2em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 20px;
   }
   #page_container #servicios_wrapper #servicio_2 {
-    width: 1000px;
-    height: 300px;
-    border: 1px solid white;
-    margin-top: 0px;
+    height: 250px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Prompt", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 2em;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
-    font-size: 1.5em;
+    font-size: 20px;
   }
   #page_container #servicios_wrapper .proveedores {
-    width: 1000px;
     height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 75%;
-    color: white;
   }
   #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-size: 1.5em;
+    font-size: 20px;
   }
   #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-size: .8em;
+    font-size: 15px;
   }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
+  #page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
+    width: 150px;
   }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
+  #page_container #servicios_wrapper #protex .logo_penta a #logo_protex {
+    width: 150px;
   }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
+  #page_container #servicios_wrapper #protex .textos p {
+    font-size: 1em;
   }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
+  #page_container #servicios_wrapper #mobiline .logo_penta a img {
+    width: 200px;
+  }
+  #page_container #servicios_wrapper #mobiline .textos p {
+    font-size: 1em;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta a img {
+    width: 150px;
+  }
+  #page_container #servicios_wrapper #carpincruz .textos p {
+    font-size: 1em;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta a h1 {
+    font-size: 20px;
+  }
+  #page_container #servicios_wrapper #yeso .textos p {
+    font-size: 1em;
   }
 }
 
-@media screen and (max-width: 1050px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
-  }
-  #page_container #servicios_wrapper .titulo {
-    height: 250px;
-    width: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page_container #servicios_wrapper .titulo h1 {
-    text-align: center;
-    color: #2f2d2d;
-    text-transform: uppercase;
-    font-size: 2em;
-  }
+@media screen and (max-width: 810px) {
   #page_container #servicios_wrapper .servicio {
-    width: 800px;
-    height: 300px;
-    border: 1px solid white;
-    margin-top: 50px;
+    height: 250px;
   }
   #page_container #servicios_wrapper .servicio h1 {
-    height: 60px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    font-size: 2em;
+    text-align: center;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 238px;
-    border-top: 1px solid white;
-    border-right: 1px solid white;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 1.8em;
+    font-size: 15px;
   }
   #page_container #servicios_wrapper #servicio_2 {
-    width: 800px;
+    height: 250px;
+  }
+  #page_container #servicios_wrapper #servicio_2 h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
+    font-size: 15px;
+  }
+  #page_container #servicios_wrapper .proveedores {
+    height: 150px;
+  }
+  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
+    font-size: 20px;
+  }
+  #page_container #servicios_wrapper .proveedores .textos .info_penta {
+    font-size: 15px;
+  }
+  #page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
+    width: 150px;
+  }
+  #page_container #servicios_wrapper #protex .logo_penta a #logo_protex {
+    width: 150px;
+  }
+  #page_container #servicios_wrapper #protex .textos p {
+    font-size: 1em;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta a img {
+    width: 200px;
+  }
+  #page_container #servicios_wrapper #mobiline .textos p {
+    font-size: 1em;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta a img {
+    width: 150px;
+  }
+  #page_container #servicios_wrapper #carpincruz .textos p {
+    font-size: 1em;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta a h1 {
+    font-size: 20px;
+  }
+  #page_container #servicios_wrapper #yeso .textos p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #page_container #servicios_wrapper .servicio {
     height: 200px;
-    border: 1px solid white;
-    margin-top: 50px;
+  }
+  #page_container #servicios_wrapper .servicio h1 {
+    font-size: 2em;
+  }
+  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper #servicio_2 {
+    height: 200px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    font-size: 1.4em;
+    font-size: 2em;
+    text-align: center;
   }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Prompt", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
+    font-size: 12px;
   }
   #page_container #servicios_wrapper .proveedores {
-    width: 800px;
     height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     width: 60%;
-    color: white;
+  }
+  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper .proveedores .textos .info_penta {
+    font-size: 10px;
   }
   #page_container #servicios_wrapper .proveedores .logo_penta {
     width: 40%;
   }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
+  #page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
+    width: 125px;
   }
-  #page_container #servicios_wrapper #protex .textos {
-    width: 60%;
+  #page_container #servicios_wrapper #protex {
+    height: 140px;
   }
   #page_container #servicios_wrapper #protex .logo_penta {
     width: 40%;
   }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #mobiline .textos {
-    width: 60%;
-  }
-  #page_container #servicios_wrapper #mobiline .logo_penta {
-    width: 40%;
-  }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #carpincruz .textos {
-    width: 60%;
-  }
-  #page_container #servicios_wrapper #carpincruz .logo_penta {
-    width: 40%;
-  }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
-  }
-  #page_container #servicios_wrapper #yeso .textos {
-    width: 60%;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
-  }
-  #page_container #servicios_wrapper .titulo {
-    height: 150px;
-    width: 600px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper .titulo h1 {
-    text-align: center;
-    color: #2f2d2d;
-    text-transform: uppercase;
-    font-size: 1.6em;
-  }
-  #page_container #servicios_wrapper .servicio {
-    width: 600px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 25px;
-  }
-  #page_container #servicios_wrapper .servicio h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 1.5em;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: .9em;
-    font-family: "Lexend Tera", sans-serif;
-  }
-  #page_container #servicios_wrapper #servicio_2 {
-    width: 600px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 0;
-  }
-  #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 20%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 80%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    font-size: .8em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  #page_container #servicios_wrapper .proveedores {
-    width: 600px;
-    height: 120px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-size: 1em;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-size: .7em;
-  }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
-  }
-  #page_container #servicios_wrapper .titulo {
-    height: 150px;
-    width: 500px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper .titulo h1 {
-    text-align: center;
-    color: #2f2d2d;
-    text-transform: uppercase;
-    font-size: 1.3em;
-  }
-  #page_container #servicios_wrapper .servicio {
-    width: 500px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 25px;
-  }
-  #page_container #servicios_wrapper .servicio h1 {
-    height: 30%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 1.5em;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 70%;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 1em;
-  }
-  #page_container #servicios_wrapper #servicio_2 {
-    width: 500px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 0;
-  }
-  #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 30%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    font-size: 1em;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 70%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
-    font-size: 1em;
-  }
-  #page_container #servicios_wrapper .proveedores {
-    width: 500px;
-    height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-size: .9em;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-size: .8em;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta {
-    width: 50%;
-  }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
+  #page_container #servicios_wrapper #protex .logo_penta a #logo_protex {
+    width: 150px;
   }
   #page_container #servicios_wrapper #protex .textos {
-    width: 50%;
+    width: 60%;
   }
-  #page_container #servicios_wrapper #protex .logo_penta {
-    width: 50%;
+  #page_container #servicios_wrapper #protex .textos p {
+    font-size: 12px;
   }
   #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta a img {
+    width: 200px;
   }
   #page_container #servicios_wrapper #mobiline .textos {
-    width: 50%;
+    width: 60%;
   }
-  #page_container #servicios_wrapper #mobiline .logo_penta {
-    width: 50%;
+  #page_container #servicios_wrapper #mobiline .textos p {
+    font-size: 12px;
   }
   #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta a img {
+    width: 150px;
   }
   #page_container #servicios_wrapper #carpincruz .textos {
-    width: 50%;
+    width: 60%;
   }
-  #page_container #servicios_wrapper #carpincruz .logo_penta {
-    width: 50%;
+  #page_container #servicios_wrapper #carpincruz .textos p {
+    font-size: 12px;
   }
   #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
+    height: 140px;
   }
   #page_container #servicios_wrapper #yeso .textos {
-    width: 50%;
+    width: 60%;
   }
   #page_container #servicios_wrapper #yeso .logo_penta {
-    width: 50%;
+    width: 40%;
   }
-}
-
-@media screen and (max-width: 540px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
+  #page_container #servicios_wrapper #yeso .logo_penta a h1 {
+    font-size: 20px;
   }
-  #page_container #servicios_wrapper .servicio {
-    width: 400px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 25px;
-  }
-  #page_container #servicios_wrapper .servicio h1 {
-    height: 30%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 1.5em;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 70%;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: .8em;
-  }
-  #page_container #servicios_wrapper #servicio_2 {
-    width: 400px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 0px;
-  }
-  #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 30%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 70%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  #page_container #servicios_wrapper .proveedores {
-    width: 400px;
-    height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-size: .8em;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-size: .5em;
-  }
-  #page_container #servicios_wrapper .proveedores .textos a {
-    font-family: "Prompt", sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-top: 5px;
-  }
-  #page_container #servicios_wrapper .proveedores .logo_penta img {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
-  }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #protex .logo_penta img {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #mobiline .logo_penta img {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #carpincruz .logo_penta img {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
-    border-radius: none;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta img {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  #page_container #servicios_wrapper {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #514F4F;
-    min-height: 100vh;
-  }
-  #page_container #servicios_wrapper .servicio {
-    width: 350px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 25px;
-  }
-  #page_container #servicios_wrapper .servicio h1 {
-    height: 30%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 1.5em;
-    font-size: 1.2em;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 70%;
-  }
-  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: .8em;
-  }
-  #page_container #servicios_wrapper #servicio_2 {
-    width: 350px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 0px;
-  }
-  #page_container #servicios_wrapper #servicio_2 h1 {
-    height: 30%;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Lexend Tera', sans-serif;
-    font-size: .9em;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 70%;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc {
-    width: 100%;
-    height: 100%;
-    border-top: 1px solid white;
-    border-right: none;
-    color: white;
-    font-family: "Lexend Tera", sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
-    font-size: 1em;
-  }
-  #page_container #servicios_wrapper .proveedores {
-    width: 350px;
-    height: 150px;
-    border: 1px solid white;
-    border-top: none;
-    margin-bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #page_container #servicios_wrapper .proveedores .textos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
-    font-size: .8em;
-  }
-  #page_container #servicios_wrapper .proveedores .textos .info_penta {
-    font-size: .6em;
-  }
-  #page_container #servicios_wrapper .proveedores .textos a {
-    font-family: "Prompt", sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-top: 5px;
-  }
-  #page_container #servicios_wrapper #protex {
-    border-top: none;
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #protex .logo_penta {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
-  }
-  #page_container #servicios_wrapper #mobiline {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #mobiline .logo_penta {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
-  }
-  #page_container #servicios_wrapper #carpincruz {
-    margin-bottom: 0;
-  }
-  #page_container #servicios_wrapper #carpincruz .logo_penta {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
-  }
-  #page_container #servicios_wrapper #yeso {
-    margin-bottom: 50px;
-    border-radius: 0 0 10px 10px;
-  }
-  #page_container #servicios_wrapper #yeso .logo_penta {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+  #page_container #servicios_wrapper #yeso .textos p {
+    font-size: 12px;
   }
 }
 
