@@ -730,6 +730,10 @@ body::-webkit-scrollbar-thumb {
   font-family: "Prompt", sans-serif;
 }
 
+#page_container #servicios_wrapper .proveedores .textos .info_penta a {
+  color: #F2922E;
+}
+
 #page_container #servicios_wrapper .proveedores .textos a {
   font-family: "Prompt", sans-serif;
   color: white;
@@ -1094,7 +1098,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 650px) {
   #page_container #servicios_wrapper .servicio {
-    height: 200px;
+    height: 300px;
   }
   #page_container #servicios_wrapper .servicio h1 {
     font-size: 2em;
@@ -1103,7 +1107,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 12px;
   }
   #page_container #servicios_wrapper #servicio_2 {
-    height: 200px;
+    height: 300px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
     font-size: 2em;

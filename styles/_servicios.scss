@@ -135,6 +135,9 @@ $padding-bottom: 100px;
                 }
                 .info_penta {
                     font-family: $font-3;
+                    a {
+                        color: $color-5;
+                    }
                 }
                 a {
                     font-family: $font-3;
@@ -796,7 +799,7 @@ $padding-bottom: 100px;
     #page_container {
         #servicios_wrapper {
             .servicio {
-                height: 200px;
+                height: 300px;
                 h1 {
                     font-size: 2em;
                 }
@@ -807,7 +810,7 @@ $padding-bottom: 100px;
                 }
             }
             #servicio_2 {
-                height: 200px;
+                height: 300px;
                 h1 {
                     font-size: 2em;
                     text-align: center;
