@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
 #navbar {
   position: fixed;
@@ -727,7 +730,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper .proveedores .textos .info_penta {
-  font-family: "Prompt", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 #page_container #servicios_wrapper .proveedores .textos .info_penta a {
@@ -735,7 +738,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #servicios_wrapper .proveedores .textos a {
-  font-family: "Prompt", sans-serif;
+  font-family: "Mulish", sans-serif;
   color: white;
   text-decoration: none;
   margin-top: 5px;
@@ -982,7 +985,7 @@ body::-webkit-scrollbar-thumb {
     height: 250px;
   }
   #page_container #servicios_wrapper .servicio h1 {
-    font-size: 2em;
+    font-size: 3em;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
     font-size: 20px;
@@ -991,7 +994,8 @@ body::-webkit-scrollbar-thumb {
     height: 250px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
-    font-size: 2em;
+    font-size: 3em;
+    text-align: center;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
     font-size: 20px;
@@ -1039,7 +1043,7 @@ body::-webkit-scrollbar-thumb {
     height: 300px;
   }
   #page_container #servicios_wrapper .servicio h1 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
   }
   #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
@@ -1049,7 +1053,7 @@ body::-webkit-scrollbar-thumb {
     height: 300px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
   }
   #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
@@ -1098,7 +1102,119 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 650px) {
   #page_container #servicios_wrapper .servicio {
-    height: 300px;
+    height: 250px;
+  }
+  #page_container #servicios_wrapper .servicio h1 {
+    font-size: 2.5em;
+  }
+  #page_container #servicios_wrapper .servicio .servicio_descripcion .desc {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper #servicio_2 {
+    height: 250px;
+  }
+  #page_container #servicios_wrapper #servicio_2 h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  #page_container #servicios_wrapper #servicio_2 .servicio_descripcion .desc .servicio_2_desc {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper .proveedores {
+    height: 150px;
+  }
+  #page_container #servicios_wrapper .proveedores .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper .proveedores .textos .titulo_penta {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper .proveedores .textos .info_penta {
+    font-size: 10px;
+  }
+  #page_container #servicios_wrapper .proveedores .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper .proveedores .logo_penta #logo_penta {
+    width: 125px;
+  }
+  #page_container #servicios_wrapper #protex {
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #protex .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #protex .logo_penta a #logo_protex {
+    width: 150px;
+  }
+  #page_container #servicios_wrapper #protex .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #protex .textos p {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper #mobiline {
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #mobiline .logo_penta a img {
+    width: 200px;
+  }
+  #page_container #servicios_wrapper #mobiline .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #mobiline .textos p {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper #carpincruz {
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #carpincruz .logo_penta a img {
+    width: 150px;
+  }
+  #page_container #servicios_wrapper #carpincruz .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #carpincruz .textos p {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper #kaiken {
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #kaiken .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #kaiken .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #kaiken .textos p {
+    font-size: 12px;
+  }
+  #page_container #servicios_wrapper #yeso {
+    height: 140px;
+  }
+  #page_container #servicios_wrapper #yeso .textos {
+    width: 60%;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta {
+    width: 40%;
+  }
+  #page_container #servicios_wrapper #yeso .logo_penta a h1 {
+    font-size: 20px;
+  }
+  #page_container #servicios_wrapper #yeso .textos p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #page_container #servicios_wrapper .servicio {
+    height: 250px;
   }
   #page_container #servicios_wrapper .servicio h1 {
     font-size: 2em;
@@ -1107,7 +1223,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 12px;
   }
   #page_container #servicios_wrapper #servicio_2 {
-    height: 300px;
+    height: 250px;
   }
   #page_container #servicios_wrapper #servicio_2 h1 {
     font-size: 2em;

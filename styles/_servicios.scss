@@ -20,6 +20,9 @@ $font-4: 'PT Sans', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 $font-3: 'Prompt', sans-serif;
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-5: 'Mulish', sans-serif;
+
 //FONT SIZE
 
 //PADDING
@@ -134,13 +137,13 @@ $padding-bottom: 100px;
                     color: $color-5;
                 }
                 .info_penta {
-                    font-family: $font-3;
+                    font-family: $font-5;
                     a {
                         color: $color-5;
                     }
                 }
                 a {
-                    font-family: $font-3;
+                    font-family: $font-5;
                     color: $color-3;
                     text-decoration: none;
                     margin-top: 5px;
@@ -530,7 +533,7 @@ $padding-bottom: 100px;
             .servicio {
                 height: 250px;
                 h1 {
-                    font-size: 2em;
+                    font-size: 3em;
                 }
                 .servicio_descripcion {
                     .desc {
@@ -541,7 +544,8 @@ $padding-bottom: 100px;
             #servicio_2 {
                 height: 250px;
                 h1 {
-                    font-size: 2em;
+                    font-size: 3em;
+                    text-align: center;
                 }
                 .servicio_descripcion {
                     .desc {
@@ -656,7 +660,7 @@ $padding-bottom: 100px;
             .servicio {
                 height: 300px;
                 h1 {
-                    font-size: 2em;
+                    font-size: 3em;
                     text-align: center;
                 }
                 .servicio_descripcion {
@@ -668,7 +672,7 @@ $padding-bottom: 100px;
             #servicio_2 {
                 height: 300px;
                 h1 {
-                    font-size: 2em;
+                    font-size: 3em;
                     text-align: center;
                 }
                 .servicio_descripcion {
@@ -799,7 +803,168 @@ $padding-bottom: 100px;
     #page_container {
         #servicios_wrapper {
             .servicio {
-                height: 300px;
+                height: 250px;
+                h1 {
+                    font-size: 2.5em;
+                }
+                .servicio_descripcion {
+                    .desc {
+                        font-size: 12px;
+                    }
+                }
+            }
+            #servicio_2 {
+                height: 250px;
+                h1 {
+                    font-size: 2.5em;
+                    text-align: center;
+                }
+                .servicio_descripcion {
+                    .desc {
+                        .servicio_2_desc {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .proveedores {
+                height: 150px;
+                .textos {
+                    width: 60%;
+                    .titulo_penta {
+                        font-size: 12px;
+                    }
+                    .info_penta {
+                        font-size: 10px;
+                    }
+                    a {
+                    }
+                }
+                .logo_penta {
+                    width: 40%;
+                    #logo_penta {
+                        width: 125px;
+                    }
+                    #logo_protex {
+                    }            
+                }
+                
+            }
+            #protex {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        #logo_protex {
+                            width: 150px;
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #mobiline {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        img {
+                            width: 200px;
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #carpincruz {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        img {
+                            width: 150px;
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #kaiken {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        img {
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #yeso {
+                height: 140px;
+                .textos {
+                    width: 60%;
+                }
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        h1 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .textos {
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #page_container {
+        #servicios_wrapper {
+            .servicio {
+                height: 250px;
                 h1 {
                     font-size: 2em;
                 }
@@ -810,7 +975,7 @@ $padding-bottom: 100px;
                 }
             }
             #servicio_2 {
-                height: 300px;
+                height: 250px;
                 h1 {
                     font-size: 2em;
                     text-align: center;
@@ -955,6 +1120,7 @@ $padding-bottom: 100px;
         }
     }
 }
+
 
 
 
