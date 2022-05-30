@@ -1,0 +1,209 @@
+//VARIABLES
+
+//COLORS
+$color-2: #2f2d2d;
+$color-1: #FBF8F4;
+$color-3: #FBF8F4;
+$color-4: #FEF2D4;
+$color-5: #F2922E;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+$font-2: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+$font-4: 'PT Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+$font-3: 'Prompt', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-5: 'Mulish', sans-serif;
+
+//FONT SIZE
+
+//PADDING
+$padding-top: 100px;
+$padding-bottom: 100px;
+
+//OTHER
+
+//STYLES
+
+#page_container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: $color-1;
+    #protex_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        width: 1400px;
+        
+        .titulo_container {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 500px;
+                }
+            }
+            .descripcion {
+                padding: 0 20px 0 20px;
+                display: flex;
+                align-items: center;
+                width: 50%;
+                 height: 100%;
+                p {
+                    font-family: $font-5;
+                }
+            }
+        }
+        .divisiones {
+            width: 100%;
+            height: 500px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            place-items: center;
+            .division {
+                width: 300px;
+                height: 80%;
+                border-radius: 10px;
+                background-color: $color-1;
+                box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.2);
+                .imagen {
+                    width: 100%;
+                    height: 60%;
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px 10px 0px 0;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .titulo_division {
+                    width: 100%;
+                    padding: 5px;
+                    height: 10%;
+                    h1 {
+                        color: $color-2;
+                        font-size: 1.2em;
+                        font-family: $font-3;
+                        text-align: center;
+                    }
+                }
+                .descripcion_division {
+                    width: 100%;
+                    height: 30%;
+                    padding: 5px;
+                    p {
+                        color: $color-2;
+                        font-family: $font-5;
+                    }
+                }
+            }
+        }
+        .link_catalogo {
+            background-color: $color-2;
+            width: 100vw;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                width: 1400px;
+                height: 100%;
+                text-decoration: none;
+                .info_catalogo {
+                    width: 1400px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .titulo_catalogo {
+                        height: 100%;
+                        width: 60%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        h1 {
+                            color: $color-1;
+                            font-family: $font-1;
+                            font-size: 2.5em;
+                        }
+                    }
+                    .img_catalogo {
+                        border: 2px solid white;
+                        height: 100%;
+                        width: 40%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                    }
+                }
+            }
+
+        }
+        .contenido_container {
+            width: 100vw;
+            height: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            .contenido_content {
+                width: 1400px;
+                height: 100%;
+                .titulo_dlc {
+                    height: 50px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1 {
+                        color: $color-2;
+                        font-family: $font-1;
+                    }
+                }
+                #contenido_folleteria {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                .contenido_dlc {
+                    width: 1400px;
+                    height: 350px;
+                    display: flex;
+                    align-items: center;
+                    .box_catalogo {
+                        border-radius: 10px;
+                        width: 250px;
+                        height: 90%;
+                        box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.2);
+                    }
+                }
+            }
+        }
+        .presupuesto {
+            background-color: $color-2;
+            width: 100vw;
+            height: 200px;
+        }
+    }
+}
