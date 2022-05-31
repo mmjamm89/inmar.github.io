@@ -1,0 +1,101 @@
+//VARIABLES
+
+//COLORS
+$color-2: #2f2d2d;
+$color-1: #FBF8F4;
+$color-3: #FBF8F4;
+$color-4: #FEF2D4;
+$color-5: #F2922E;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+$font-2: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+$font-4: 'PT Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+$font-3: 'Prompt', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-5: 'Mulish', sans-serif;
+
+//FONT SIZE
+
+//PADDING
+$padding-top: 100px;
+$padding-bottom: 100px;
+
+//OTHER
+
+//STYLES
+
+#page_container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: $color-1;
+    #entrerios_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        width: 1400px;
+        .titulo_container {
+            border: 2px solid black;
+            width: 100%;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 200px;
+                }
+            }
+            .descripcion {
+                padding: 0 20px 0 20px;
+                display: flex;
+                align-items: center;
+                width: 60%;
+                height: 100%;
+                p {
+                    color: $color-2;
+                    font-family: $font-5;
+                }                
+            }
+        }
+        .contenido_entrerios {
+            border: 2px solid red;
+            width: 100%;
+            height: 500px;
+        }
+        .presupuesto_container {
+            background-color: $color-2;
+            width: 100vw;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .presupuesto {
+                width: 1400px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                h1 {
+                    font-family: $font-1;
+                    color: $color-1;
+                    font-size: 2.4em;
+                }
+            }
+        }
+    }
+}

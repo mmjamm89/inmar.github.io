@@ -37,13 +37,13 @@ $padding-bottom: 100px;
     min-height: 100vh;
     width: 100%;
     background-color: $color-1;
-    #protex_wrapper {
+    #mobiline_wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         min-height: 100vh;
-        width: 1400px;        
+        width: 1400px;
         .titulo_container {
             width: 100%;
             height: 250px;
@@ -57,7 +57,7 @@ $padding-bottom: 100px;
                 align-items: center;
                 justify-content: center;
                 img {
-                    width: 500px;
+                    width: 300px;
                 }
             }
             .descripcion {
@@ -71,107 +71,24 @@ $padding-bottom: 100px;
                 }
             }
         }
-        .divisiones {
-            width: 100%;
-            height: 500px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            place-items: center;
-            .division {
-                width: 300px;
-                height: 80%;
-                border-radius: 10px;
-                background-color: $color-1;
-                box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.2);
-                overflow: hidden;
-                transition: transform .2s ease;
-                &:hover {
-                    transform: scale(1.03);
-                    box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.2);
-                }
-                .imagen {
-                    width: 100%;
-                    height: 60%;
-                    overflow: hidden;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    img {
-                        width: 100%;
-                        border-radius: 10px 10px 0 0;
-                    }
-                }
-                .titulo_division {
-                    width: 100%;
-                    padding: 5px;
-                    height: 10%;
-                    transition: .2s;
-                    &:hover {
-                    }
-                    h1 {
-                        color: $color-2;
-                        font-size: 1.2em;
-                        font-family: $font-3;
-                        text-align: center;
-                    }
-                }
-                .descripcion_division {
-                    
-                    width: 100%;
-                    height: 30%;
-                    padding: 5px;
-                    p {
-                        color: $color-2;
-                        font-family: $font-5;
-                    }
-                }
-            }
-        }
-        .link_catalogo {
-            background-color: $color-2;
-            width: 100vw;
-            height: 200px;
+        .slider_container {
+            border: 2px solid black;
+            width: 1400px;
+            height: 300px;
+            padding-top: 25px;
+            padding-bottom: 25px;
             display: flex;
             align-items: center;
             justify-content: center;
-            a {
-                width: 1400px;
-                height: 100%;
-                text-decoration: none;
-                .info_catalogo {
-                    width: 1400px;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    .titulo_catalogo {
-                        height: 100%;
-                        width: 60%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: flex-start;
-                        h1 {
-                            color: $color-1;
-                            font-family: $font-1;
-                            font-size: 2.5em;
-                        }
-                    }
-                    .img_catalogo {
-                        border: 2px solid white;
-                        height: 100%;
-                        width: 40%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        overflow: hidden;
-                    }
-                }
+            .slider {
+                border: 2px solid red;
+                height: 250px;
+                width: 80%;
             }
-
         }
         .contenido_container {
             width: 100vw;
-            height: 800px;
+            height: 400px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -190,11 +107,6 @@ $padding-bottom: 100px;
                         font-family: $font-1;
                     }
                 }
-                #contenido_folleteria {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                }
                 .contenido_dlc {
                     width: 1400px;
                     height: 350px;
@@ -209,6 +121,7 @@ $padding-bottom: 100px;
                 }
             }
         }
+
         .presupuesto_container {
             background-color: $color-2;
             width: 100vw;

@@ -19,6 +19,26 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 #navbar {
   position: fixed;
   width: 100%;
@@ -2010,6 +2030,686 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #protex_wrapper .presupuesto_container .presupuesto h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 2.4em;
+}
+
+#page_container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #FBF8F4;
+}
+
+#page_container #mobiline_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-height: 100vh;
+  width: 1400px;
+}
+
+#page_container #mobiline_wrapper .titulo_container {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page_container #mobiline_wrapper .titulo_container .logo {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #mobiline_wrapper .titulo_container .logo img {
+  width: 300px;
+}
+
+#page_container #mobiline_wrapper .titulo_container .descripcion {
+  padding: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+#page_container #mobiline_wrapper .titulo_container .descripcion p {
+  font-family: "Mulish", sans-serif;
+}
+
+#page_container #mobiline_wrapper .slider_container {
+  border: 2px solid black;
+  width: 1400px;
+  height: 300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #mobiline_wrapper .slider_container .slider {
+  border: 2px solid red;
+  height: 250px;
+  width: 80%;
+}
+
+#page_container #mobiline_wrapper .contenido_container {
+  width: 100vw;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#page_container #mobiline_wrapper .contenido_container .contenido_content {
+  width: 1400px;
+  height: 100%;
+}
+
+#page_container #mobiline_wrapper .contenido_container .contenido_content .titulo_dlc {
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #mobiline_wrapper .contenido_container .contenido_content .titulo_dlc h1 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+}
+
+#page_container #mobiline_wrapper .contenido_container .contenido_content .contenido_dlc {
+  width: 1400px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #mobiline_wrapper .contenido_container .contenido_content .contenido_dlc .box_catalogo {
+  border-radius: 10px;
+  width: 250px;
+  height: 90%;
+  -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+#page_container #mobiline_wrapper .presupuesto_container {
+  background-color: #2f2d2d;
+  width: 100vw;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #mobiline_wrapper .presupuesto_container .presupuesto {
+  width: 1400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #mobiline_wrapper .presupuesto_container .presupuesto h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 2.4em;
+}
+
+#page_container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #FBF8F4;
+}
+
+#page_container #carpincruz_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-height: 100vh;
+  width: 1400px;
+}
+
+#page_container #carpincruz_wrapper .titulo_container {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page_container #carpincruz_wrapper .titulo_container .logo {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #carpincruz_wrapper .titulo_container .logo img {
+  width: 300px;
+}
+
+#page_container #carpincruz_wrapper .titulo_container .descripcion {
+  padding: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+#page_container #carpincruz_wrapper .titulo_container .descripcion p {
+  font-family: "Mulish", sans-serif;
+}
+
+#page_container #carpincruz_wrapper .slider_container {
+  border: 2px solid black;
+  width: 1400px;
+  height: 300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #carpincruz_wrapper .slider_container .slider {
+  border: 2px solid red;
+  height: 250px;
+  width: 80%;
+}
+
+#page_container #carpincruz_wrapper .contenido_container {
+  width: 100vw;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#page_container #carpincruz_wrapper .contenido_container .contenido_content {
+  width: 1400px;
+  height: 100%;
+}
+
+#page_container #carpincruz_wrapper .contenido_container .contenido_content .titulo_dlc {
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #carpincruz_wrapper .contenido_container .contenido_content .titulo_dlc h1 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+}
+
+#page_container #carpincruz_wrapper .contenido_container .contenido_content .contenido_dlc {
+  width: 1400px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #carpincruz_wrapper .contenido_container .contenido_content .contenido_dlc .box_catalogo {
+  border-radius: 10px;
+  width: 250px;
+  height: 90%;
+  -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+#page_container #carpincruz_wrapper .presupuesto_container {
+  background-color: #2f2d2d;
+  width: 100vw;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #carpincruz_wrapper .presupuesto_container .presupuesto {
+  width: 1400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #carpincruz_wrapper .presupuesto_container .presupuesto h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 2.4em;
+}
+
+#page_container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #FBF8F4;
+}
+
+#page_container #kaiken_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-height: 100vh;
+  width: 1400px;
+}
+
+#page_container #kaiken_wrapper .titulo_container {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page_container #kaiken_wrapper .titulo_container .logo {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #kaiken_wrapper .titulo_container .logo img {
+  width: 500px;
+}
+
+#page_container #kaiken_wrapper .titulo_container .descripcion {
+  padding: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+#page_container #kaiken_wrapper .titulo_container .descripcion h1 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+}
+
+#page_container #kaiken_wrapper .kaiken_descripcion {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #kaiken_wrapper .kaiken_descripcion p {
+  color: #2f2d2d;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.3em;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos {
+  border: 2px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 1000px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen {
+  border: 2px solid black;
+  height: 100%;
+  width: 40%;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion {
+  border: 2px solid black;
+  height: 100%;
+  width: 60%;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_titulo {
+  padding-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_titulo h1 {
+  font-family: "Mulish", sans-serif;
+  color: #2f2d2d;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_texto {
+  padding-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_texto p {
+  font-family: "Mulish", sans-serif;
+  color: #2f2d2d;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico {
+  width: 100%;
+  height: 100px;
+}
+
+#page_container #kaiken_wrapper .presupuesto_container {
+  background-color: #2f2d2d;
+  width: 100vw;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #kaiken_wrapper .presupuesto_container .presupuesto {
+  width: 1400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #kaiken_wrapper .presupuesto_container .presupuesto h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 2.4em;
+}
+
+#page_container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #FBF8F4;
+}
+
+#page_container #entrerios_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-height: 100vh;
+  width: 1400px;
+}
+
+#page_container #entrerios_wrapper .titulo_container {
+  border: 2px solid black;
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page_container #entrerios_wrapper .titulo_container .logo {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #entrerios_wrapper .titulo_container .logo img {
+  width: 200px;
+}
+
+#page_container #entrerios_wrapper .titulo_container .descripcion {
+  padding: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+#page_container #entrerios_wrapper .titulo_container .descripcion p {
+  color: #2f2d2d;
+  font-family: "Mulish", sans-serif;
+}
+
+#page_container #entrerios_wrapper .contenido_entrerios {
+  border: 2px solid red;
+  width: 100%;
+  height: 500px;
+}
+
+#page_container #entrerios_wrapper .presupuesto_container {
+  background-color: #2f2d2d;
+  width: 100vw;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #entrerios_wrapper .presupuesto_container .presupuesto {
+  width: 1400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #entrerios_wrapper .presupuesto_container .presupuesto h1 {
   font-family: "Lexend Tera", sans-serif;
   color: #FBF8F4;
   font-size: 2.4em;
