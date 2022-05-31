@@ -1784,6 +1784,18 @@ body::-webkit-scrollbar-thumb {
   background-color: #FBF8F4;
   -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  -webkit-transition: -webkit-transform .2s ease;
+  transition: -webkit-transform .2s ease;
+  transition: transform .2s ease;
+  transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
+#page_container #protex_wrapper .divisiones .division:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 16px 1px rgba(0, 0, 0, 0.2);
 }
 
 #page_container #protex_wrapper .divisiones .division .imagen {
@@ -1799,17 +1811,19 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 10px 10px 0px 0;
 }
 
 #page_container #protex_wrapper .divisiones .division .imagen img {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 #page_container #protex_wrapper .divisiones .division .titulo_division {
   width: 100%;
   padding: 5px;
   height: 10%;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 #page_container #protex_wrapper .divisiones .division .titulo_division h1 {
@@ -1969,9 +1983,35 @@ body::-webkit-scrollbar-thumb {
           box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
-#page_container #protex_wrapper .presupuesto {
+#page_container #protex_wrapper .presupuesto_container {
   background-color: #2f2d2d;
   width: 100vw;
   height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #protex_wrapper .presupuesto_container .presupuesto {
+  width: 1400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page_container #protex_wrapper .presupuesto_container .presupuesto h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 2.4em;
 }
 /*# sourceMappingURL=style.css.map */
