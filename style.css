@@ -2499,11 +2499,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos {
-  border: 2px solid black;
   margin-top: 25px;
   margin-bottom: 25px;
   width: 80%;
-  height: 1000px;
+  height: 1500px;
+  border: 1px solid #2f2d2d;
+  border-radius: 10px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos #tolva_superior_container {
+  border-bottom: 1px solid #2f2d2d;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos #tolva_entrepiso_container {
+  border-bottom: 1px solid #2f2d2d;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos #tubo_descarga_container {
+  border-bottom: 1px solid #2f2d2d;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos #repuesto_tolva_container {
+  border-bottom: 1px solid #2f2d2d;
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container {
@@ -2515,15 +2532,34 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen {
-  border: 2px solid black;
   height: 100%;
-  width: 40%;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen img {
+  width: 150px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen #tolva_entrepiso {
+  width: 100px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen #tubo_descarga {
+  width: 90px;
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion {
-  border: 2px solid black;
   height: 100%;
-  width: 60%;
+  width: 80%;
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_titulo {
@@ -2569,6 +2605,16 @@ body::-webkit-scrollbar-thumb {
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico {
   width: 100%;
   height: 100px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_tecnico {
+  width: 100%;
+  padding-left: 5px;
+}
+
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_tecnico p {
+  font-family: "Mulish", sans-serif;
+  color: #2f2d2d;
 }
 
 #page_container #kaiken_wrapper .presupuesto_container {
