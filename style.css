@@ -813,7 +813,6 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: red;
   min-height: 100vh;
 }
 
@@ -2904,7 +2903,7 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
-  height: 50px;
+  height: 20%;
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_titulo h1 {
@@ -2924,7 +2923,7 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
-  height: 50px;
+  height: 20%;
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_texto p {
@@ -2933,18 +2932,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico {
-  width: 100%;
-  height: 100px;
-}
-
-#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_tecnico {
+  height: 40%;
   width: 100%;
   padding-left: 5px;
 }
 
-#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_tecnico p {
+#page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico p {
   font-family: "Mulish", sans-serif;
   color: #2f2d2d;
+  font-size: .9em;
 }
 
 #page_container #kaiken_wrapper .presupuesto_container {
@@ -2977,6 +2973,373 @@ body::-webkit-scrollbar-thumb {
   font-family: "Lexend Tera", sans-serif;
   color: #FBF8F4;
   font-size: 2.4em;
+}
+
+@media screen and (max-width: 1450px) {
+  #page_container #kaiken_wrapper {
+    width: 1200px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo img {
+    width: 400px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion h1 {
+    font-size: 1.9em;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion p {
+    font-size: 1em;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto {
+    width: 1200px;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  #page_container #kaiken_wrapper {
+    width: 1000px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo img {
+    width: 350px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion h1 {
+    font-size: 1.8em;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion p {
+    font-size: .9em;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto {
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #page_container #kaiken_wrapper {
+    width: 800px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo img {
+    width: 300px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion h1 {
+    font-size: 1.5em;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion p {
+    font-size: .9em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos {
+    height: 1600px;
+    width: 90%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen {
+    width: 40%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion {
+    width: 60%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_texto p {
+    font-size: .9em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_tecnico p {
+    font-size: .7em;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto {
+    width: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #page_container #kaiken_wrapper {
+    width: 600px;
+  }
+  #page_container #kaiken_wrapper .titulo_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 400px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo {
+    width: 100%;
+    height: 50%;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo img {
+    width: 400px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion {
+    width: 90%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion p {
+    font-size: .9em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos {
+    height: 1600px;
+    width: 90%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen {
+    width: 40%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion {
+    width: 60%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_titulo h1 {
+    font-size: 1.5em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_texto p {
+    font-size: .9em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico p {
+    font-size: .7em;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto {
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #page_container #kaiken_wrapper {
+    width: 450px;
+  }
+  #page_container #kaiken_wrapper .titulo_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 450px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo {
+    width: 100%;
+    height: 50%;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo img {
+    width: 400px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion {
+    width: 90%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion {
+    width: 90%;
+    height: 250px;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion p {
+    font-size: .9em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos {
+    height: 1600px;
+    width: 90%;
+    margin-top: 50px;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen {
+    width: 40%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion {
+    width: 60%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_titulo h1 {
+    font-size: 1em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_texto p {
+    font-size: .8em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico {
+    padding-top: 10px;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico p {
+    font-size: .6em;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container {
+    height: 150px;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #page_container #kaiken_wrapper {
+    width: 350px;
+  }
+  #page_container #kaiken_wrapper .titulo_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 450px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo {
+    width: 100%;
+    height: 50%;
+  }
+  #page_container #kaiken_wrapper .titulo_container .logo img {
+    width: 300px;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion {
+    width: 100%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .titulo_container .descripcion h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion {
+    width: 90%;
+    height: 400px;
+  }
+  #page_container #kaiken_wrapper .kaiken_descripcion p {
+    font-size: .9em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos {
+    height: 1600px;
+    width: 95%;
+    margin-top: 50px;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen {
+    width: 40%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_imagen img {
+    width: 100px;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion {
+    width: 60%;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_titulo h1 {
+    font-size: 1em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_texto p {
+    font-size: .8em;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico {
+    padding-top: 10px;
+    padding-right: 5px;
+  }
+  #page_container #kaiken_wrapper .kaiken_tubos .tubo_container .tubo_descripcion .tubo_tecnico p {
+    font-size: .6em;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container {
+    height: 150px;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto {
+    width: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #page_container #kaiken_wrapper .presupuesto_container .presupuesto h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
 }
 
 #page_container {
