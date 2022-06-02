@@ -373,3 +373,53 @@ $padding-bottom: 100px;
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    #page_container {
+        #productos_wrapper {
+            border: 2px solid red;
+            width: 400px;
+            .productos_titulo {
+                margin-top: none;
+                width: 90%;
+                h1 {
+                    font-size: 1.5em;
+                }
+            }
+            .productos_descripcion {
+                width: 90%;
+                h2 {
+                    font-size: 1em;
+                    font-weight: 400;
+                }
+            }
+            .proveedores_boxes {
+                grid-template-columns: repeat(1, 1fr);
+                row-gap: 20px;
+                .box {
+                    width: 80%;
+                    height: 250px;
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                    .logo {
+                        height: 50%;
+                        #logo_protex {
+                        }
+                        #logo_kaiken {
+                        }
+                        #logo_yeso {
+                        }
+                    }
+                    .proveedores_descripcion {
+                    }
+                    .link {
+                        height: 20%;
+                        a {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -798,6 +798,46 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media screen and (max-width: 500px) {
+  #page_container #productos_wrapper {
+    border: 2px solid red;
+    width: 400px;
+  }
+  #page_container #productos_wrapper .productos_titulo {
+    margin-top: none;
+    width: 90%;
+  }
+  #page_container #productos_wrapper .productos_titulo h1 {
+    font-size: 1.5em;
+  }
+  #page_container #productos_wrapper .productos_descripcion {
+    width: 90%;
+  }
+  #page_container #productos_wrapper .productos_descripcion h2 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  #page_container #productos_wrapper .proveedores_boxes {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+  }
+  #page_container #productos_wrapper .proveedores_boxes .box {
+    width: 80%;
+    height: 250px;
+  }
+  #page_container #productos_wrapper .proveedores_boxes .box:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  #page_container #productos_wrapper .proveedores_boxes .box .logo {
+    height: 50%;
+  }
+  #page_container #productos_wrapper .proveedores_boxes .box .link {
+    height: 20%;
+  }
+}
+
 #page_container #servicios_wrapper {
   width: 100%;
   display: -webkit-box;
