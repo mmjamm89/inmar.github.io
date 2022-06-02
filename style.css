@@ -2495,27 +2495,28 @@ body::-webkit-scrollbar-thumb {
   font-family: "Mulish", sans-serif;
 }
 
-#page_container #mobiline_wrapper .slider_container {
+#page_container #mobiline_wrapper .galeria_container {
   border: 2px solid black;
   width: 1400px;
-  height: 300px;
   padding-top: 25px;
   padding-bottom: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
 }
 
-#page_container #mobiline_wrapper .slider_container .slider {
-  border: 2px solid red;
-  height: 250px;
-  width: 80%;
+#page_container #mobiline_wrapper .galeria_container .img_container {
+  width: 90%;
+  height: 414.3px;
+  border-radius: 5px;
+}
+
+#page_container #mobiline_wrapper .galeria_container .img_container img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 #page_container #mobiline_wrapper .contenido_container {
