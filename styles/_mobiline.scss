@@ -40,7 +40,7 @@ $padding-bottom: 100px;
     #mobiline_wrapper {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        place-items: center;
         justify-content: flex-start;
         min-height: 100vh;
         width: 1400px;
@@ -72,7 +72,6 @@ $padding-bottom: 100px;
             }
         }
         .galeria_container {
-            border: 2px solid black;
             width: 1400px;
             padding-top: 25px;
             padding-bottom: 25px;
@@ -82,7 +81,6 @@ $padding-bottom: 100px;
             row-gap: 20px;            
             .img_container {
                 width: 90%;
-                height: 414.3px;
                 border-radius: 5px;
                 img {
                     width: 100%;
@@ -149,6 +147,276 @@ $padding-bottom: 100px;
                     font-family: $font-1;
                     color: $color-1;
                     font-size: 2.4em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #page_container {
+        #mobiline_wrapper {
+            width: 1200px;
+            .titulo_container {
+                .logo {
+                    img {
+                    }
+                }
+                .descripcion {
+                    p {
+                    }
+                }
+            }
+            .galeria_container {
+                width: 1200px;
+                .img_container {
+                    img {
+                    }
+                }
+            }
+            .contenido_container {
+                .contenido_content {
+                    width: 1200px;
+                    .titulo_dlc {
+                        h1 {
+                        }
+                    }
+                    .contenido_dlc {
+                        .box_catalogo {
+                            img {
+                            }
+                        }
+                    }
+                }
+            }
+            .presupuesto_container {
+                .presupuesto {
+                    width: 1200px;
+                    h1 {
+                        font-size: 2em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    #page_container {
+        #mobiline_wrapper {
+            width: 1000px;
+            .titulo_container {
+                .logo {
+                    img {
+                    }
+                }
+                .descripcion {
+                    p {
+                        font-size: .9em;
+                    }
+                }
+            }
+            .galeria_container {
+                width: 1000px;
+                .img_container {
+                    img {
+                    }
+                }
+            }
+            .contenido_container {
+                .contenido_content {
+                    width: 1000px;
+                    .titulo_dlc {
+                        h1 {
+                        }
+                    }
+                    .contenido_dlc {
+                        .box_catalogo {
+                            img {
+                            }
+                        }
+                    }
+                }
+            }
+            .presupuesto_container {
+                .presupuesto {
+                    width: 1000px;
+                    h1 {
+                        font-size: 1.7em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #page_container {
+        #mobiline_wrapper {
+            width: 800px;
+            .titulo_container {
+                .logo {
+                    img {
+                    }
+                }
+                .descripcion {
+                    p {
+                        font-size: .8em;
+                    }
+                }
+            }
+            .galeria_container {
+                width: 800px;
+                .img_container {
+                    img {
+                    }
+                }
+            }
+            .contenido_container {
+                .contenido_content {
+                    width: 800px;
+                    .titulo_dlc {
+                        h1 {
+                        }
+                    }
+                    .contenido_dlc {
+                        .box_catalogo {
+                            img {
+                            }
+                        }
+                    }
+                }
+            }
+            .presupuesto_container {
+                .presupuesto {
+                    width: 800px;
+                    h1 {
+                        font-size: 1.4em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #page_container {
+        #mobiline_wrapper {
+            width: 600px;
+            .titulo_container {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .logo {
+                    width: 100%;
+                    img {
+                    }
+                }
+                .descripcion {
+                    width: 100%;
+                    p {
+                    }
+                }
+            }
+            .galeria_container {
+                width: 600px;
+                grid-template-columns: 1fr;
+                .img_container {
+                    img {
+                    }
+                }
+            }
+            .contenido_container {
+                .contenido_content {
+                    width: 600px;
+                    .titulo_dlc {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        h1 {
+                            font-size: 1.5em;
+                            text-align: center;
+                        }
+                    }
+                    .contenido_dlc {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .box_catalogo {
+                            img {
+                            }
+                        }
+                    }
+                }
+            }
+            .presupuesto_container {
+                height: 150px;
+                .presupuesto {
+                    width: 600px;
+                    h1 {
+                        font-size: 1.2em;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #page_container {
+        #mobiline_wrapper {
+            width: 400px;
+            .titulo_container {
+                .logo {
+                    img {
+                    }
+                }
+                .descripcion {
+                    p {
+                        font-size: .7em;
+                        text-align: center;
+                    }
+                }
+            }
+            .galeria_container {
+                width: 400px;
+                grid-template-columns: 1fr;
+                .img_container {
+                    img {
+                    }
+                }
+            }
+            .contenido_container {
+                width: 100%;
+                .contenido_content {
+                    width: 400px;
+                    .titulo_dlc {
+                        h1 {
+                            font-size: 1.1em;
+                        }
+                    }
+                    .contenido_dlc {
+                        .box_catalogo {
+                            img {
+                            }
+                        }
+                    }
+                }
+            }
+            .presupuesto_container {
+                height: 150px;
+                .presupuesto {
+                    width: 400px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h1 {
+                        font-size: 1.2em;
+                        text-align: center;
+                    }
                 }
             }
         }
