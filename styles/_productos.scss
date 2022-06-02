@@ -373,11 +373,9 @@ $padding-bottom: 100px;
         }
     }
 }
-
 @media screen and (max-width: 500px) {
     #page_container {
         #productos_wrapper {
-            border: 2px solid red;
             width: 400px;
             .productos_titulo {
                 margin-top: none;

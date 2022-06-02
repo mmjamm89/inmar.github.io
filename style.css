@@ -800,7 +800,6 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 500px) {
   #page_container #productos_wrapper {
-    border: 2px solid red;
     width: 400px;
   }
   #page_container #productos_wrapper .productos_titulo {
@@ -2026,6 +2025,21 @@ body::-webkit-scrollbar-thumb {
   height: 300px;
   -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page_container #protex_wrapper .contenido_container .contenido_content .contenido_dlc .box_catalogo img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 #page_container #protex_wrapper .presupuesto_container {
@@ -2550,9 +2564,23 @@ body::-webkit-scrollbar-thumb {
 #page_container #mobiline_wrapper .contenido_container .contenido_content .contenido_dlc .box_catalogo {
   border-radius: 10px;
   width: 250px;
-  height: 90%;
+  height: 300px;
   -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+#page_container #mobiline_wrapper .contenido_container .contenido_content .contenido_dlc .box_catalogo img {
+  width: 110%;
 }
 
 #page_container #mobiline_wrapper .presupuesto_container {
@@ -2733,9 +2761,23 @@ body::-webkit-scrollbar-thumb {
 #page_container #carpincruz_wrapper .contenido_container .contenido_content .contenido_dlc .box_catalogo {
   border-radius: 10px;
   width: 250px;
-  height: 90%;
+  height: 300px;
   -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+#page_container #carpincruz_wrapper .contenido_container .contenido_content .contenido_dlc .box_catalogo img {
+  width: 110%;
 }
 
 #page_container #carpincruz_wrapper .presupuesto_container {

@@ -200,6 +200,14 @@ $padding-bottom: 100px;
                         width: 250px;
                         height: 300px;
                         box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.2);
+                        overflow: hidden;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        img {
+                            width: 100%;
+                            border-radius: 10px;
+                        }
                     }
                 }
             }
