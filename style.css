@@ -3289,6 +3289,7 @@ body::-webkit-scrollbar-thumb {
   min-height: 100vh;
   width: 100%;
   background-color: #FBF8F4;
+  overflow-x: hidden;
 }
 
 #page_container #carpincruz_wrapper {
