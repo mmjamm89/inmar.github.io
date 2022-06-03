@@ -1120,6 +1120,166 @@ $padding-bottom: 100px;
     }
 }
 
+@media screen and (max-width: 400px) {
+    #page_container {
+        #servicios_wrapper {
+            .servicio {
+                height: 250px;
+                h1 {
+                    font-size: 1.3em;
+                }
+                .servicio_descripcion {
+                    .desc {
+                        font-size: 12px;
+                    }
+                }
+            }
+            #servicio_2 {
+                height: 250px;
+                h1 {
+                    font-size: 1.3em;
+                    text-align: center;
+                }
+                .servicio_descripcion {
+                    .desc {
+                        .servicio_2_desc {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .proveedores {
+                height: 150px;
+                .textos {
+                    width: 60%;
+                    .titulo_penta {
+                        font-size: 12px;
+                    }
+                    .info_penta {
+                        font-size: 10px;
+                    }
+                    a {
+                    }
+                }
+                .logo_penta {
+                    width: 40%;
+                    #logo_penta {
+                        width: 125px;
+                    }
+                    #logo_protex {
+                    }            
+                }
+                
+            }
+            #protex {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        #logo_protex {
+                            width: 150px;
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #mobiline {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        img {
+                            width: 200px;
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #carpincruz {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        img {
+                            width: 150px;
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #kaiken {
+                height: 140px;
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        img {
+                        }
+                    }
+                }
+                .textos {
+                    width: 60%;
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+            #yeso {
+                height: 140px;
+                .textos {
+                    width: 60%;
+                }
+                .logo_penta {
+                    width: 40%;
+                    a {
+                        h1 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .textos {
+                    p {
+                        font-size: 12px;
+                    }
+                    a {
+                        &:hover {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -152,3 +152,27 @@ $padding-bottom: 100px;
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+    #navbar {        
+        .navbar {        
+            width: 90%;
+            .logo {
+                transition: .2s;
+                display: none;                
+            }
+            .nav_links {
+                width: 100%;
+                li {
+                    font-size: .5em;                    
+                    &:hover {
+                        font-size: 1em;                        
+                    }
+                    a {
+
+                    }
+                }
+            }
+        }
+    }
+}

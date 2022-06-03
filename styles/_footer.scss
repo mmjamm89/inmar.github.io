@@ -72,3 +72,17 @@ $padding-bottom: 100px;
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+    #footer {
+        .footer {
+            width: 90%;
+            .footer_contacto {
+                font-size: .5em;
+            }
+            .footer_logo {
+                width: 100px;
+            }
+        }
+    }
+}

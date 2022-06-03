@@ -422,3 +422,61 @@ $padding-bottom: 100px;
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+    #page_container {
+        #mobiline_wrapper {
+            width: 350px;
+            .titulo_container {
+                .logo {
+                    img {
+                    }
+                }
+                .descripcion {
+                    p {
+                        font-size: .7em;
+                        text-align: center;
+                    }
+                }
+            }
+            .galeria_container {
+                width: 350px;
+                grid-template-columns: 1fr;
+                .img_container {
+                    img {
+                    }
+                }
+            }
+            .contenido_container {
+                width: 100%;
+                .contenido_content {
+                    width: 350px;
+                    .titulo_dlc {
+                        h1 {
+                            font-size: 1.1em;
+                        }
+                    }
+                    .contenido_dlc {
+                        .box_catalogo {
+                            img {
+                            }
+                        }
+                    }
+                }
+            }
+            .presupuesto_container {
+                height: 150px;
+                .presupuesto {
+                    width: 350px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h1 {
+                        font-size: 1em;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
